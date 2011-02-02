@@ -1,14 +1,16 @@
 (ns protoss.core
   (:import [org.apache.commons.cli Options GnuParser HelpFormatter]))
 
-(defmacro if-option [cmd opt & body]
-  `(when (.hasOption ~cmd ~opt)
-       ~@body))
+(def *cmdline* nil)
 
-(defmacro if-option-with-arg [cmd opt arg & body]
-  `(when (.hasOption ~cmd ~opt)
-     (let [~arg (.getOptionValue ~cmd ~opt)]
-       ~@body)))
+(defmacro se-opcao [opt & body]
+  `(when (.hasOption *cmdline* ~opt)
+     ~@body))
+
+(defmacro se-opcao-com-arg [opt arg & body]
+  `(when (.hasOption *cmdline* ~opt)
+       (let [~arg (.getOptionValue *cmdline* ~opt)]
+         ~@body)))
 
 (defn configurar-opcoes []
   (doto (Options.)
@@ -21,21 +23,21 @@
     (.addOption "p" "planilhas" true "atualiza as planilhas dos clientes com os documentos referentes à data de emissão")
     (.addOption "x" "excluir" true "remove do banco de dados os documentos referentes à data de emissão")))
 
-(defn -main []
-  (let [opcoes (configurar-opcoes)
-        cmd (.parse (GnuParser.) opcoes (into-array ["-c" "--gerar" "-e 01/02/2011" "-h"]))]
-    (if-option cmd "c"
-      (println "Carregando..."))
-    (if-option cmd "g"
-      (println "Gerando..."))
-    (if-option-with-arg cmd "e" data-de-emissao
-        (println (str "Emitindo" data-de-emissao "...")))
-    (if-option-with-arg cmd "r" data-de-emissao
-        (println (str "Gerando relatórios de" data-de-emissao "...")))
-    (if-option-with-arg cmd "p" data-de-emissao
-        (println (str "Atualizando planilhas com os dados de" data-de-emissao "...")))
-    (if-option-with-arg cmd "x" data-de-emissao
-        (println (str "Excluindo dados de" data-de-emissao "...")))
-    (if-option cmd "h"
-      (.printHelp (HelpFormatter.) "protoss" opcoes))))
+(defn -main [& args]
+  (let [opcoes (configurar-opcoes)]
+    (binding [*cmdline* (.parse (GnuParser.) opcoes (into-array args))]
+      (se-opcao "c"
+                (println "Carregando..."))
+      (se-opcao "g"
+                (println "Gerando..."))
+      (se-opcao-com-arg "e" data-de-emissao
+                        (println (str "Emitindo " data-de-emissao "...")))
+      (se-opcao-com-arg "r" data-de-emissao
+                        (println (str "Gerando relatórios de " data-de-emissao "...")))
+      (se-opcao-com-arg "p" data-de-emissao
+                        (println (str "Atualizando planilhas com os dados de " data-de-emissao "...")))
+      (se-opcao-com-arg "x" data-de-emissao
+                        (println (str "Excluindo dados de " data-de-emissao "...")))
+      (se-opcao "h"
+                (.printHelp (HelpFormatter.) "protoss" opcoes)))))
 
