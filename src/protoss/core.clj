@@ -1,15 +1,13 @@
 (ns protoss.core
   (:import [org.apache.commons.cli Options GnuParser HelpFormatter]))
 
-(def *cmdline* nil)
-
-(defmacro se-opcao [opt & body]
-  `(when (.hasOption *cmdline* ~opt)
+(defmacro se-opcao [cmdline opt & body]
+  `(when (.hasOption ~cmdline ~opt)
      ~@body))
 
-(defmacro se-opcao-com-arg [opt arg & body]
-  `(when (.hasOption *cmdline* ~opt)
-       (let [~arg (.getOptionValue *cmdline* ~opt)]
+(defmacro se-opcao-com-arg [cmdline opt arg & body]
+  `(se-opcao ~cmdline ~opt
+       (let [~arg (.getOptionValue ~cmdline ~opt)]
          ~@body)))
 
 (defn configurar-opcoes []
@@ -24,8 +22,10 @@
     (.addOption "x" "excluir" true "remove do banco de dados os documentos referentes à data de emissão")))
 
 (defn -main [& args]
-  (let [opcoes (configurar-opcoes)]
-    (binding [*cmdline* (.parse (GnuParser.) opcoes (into-array args))]
+  (let [opcoes (configurar-opcoes)
+        parser (GnuParser.)
+        cmdline (.parse parser opcoes (into-array (conj args "")))]
+    (doto cmdline
       (se-opcao "c"
                 (println "Carregando..."))
       (se-opcao "g"
@@ -39,5 +39,6 @@
       (se-opcao-com-arg "x" data-de-emissao
                         (println (str "Excluindo dados de " data-de-emissao "...")))
       (se-opcao "h"
-                (.printHelp (HelpFormatter.) "protoss" opcoes)))))
+                (.printHelp (HelpFormatter.) "protoss" opcoes)))
+    nil))
 
