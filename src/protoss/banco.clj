@@ -9,5 +9,8 @@
             :subname (str "//" db-host "/" db-name)
             :user "caugm"
             :password "caugm"}]
-    (with-connection db (with-query-results rs ["select * from documentos_de_cobranca"] (seq rs)))))
+    (with-connection db 
+                     (with-query-results rs 
+                                         ["select * from documentos_de_cobranca"] 
+                                         (dorun (map #(println %) rs))))))
 

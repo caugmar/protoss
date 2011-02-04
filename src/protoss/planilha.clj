@@ -4,7 +4,7 @@
            [javax.swing.table TableModel DefaultTableModel]
            [java.io File]))
 
-(defn -main []
+(defn criar []
   (let [data (to-array-2d [["janeiro", 1],
                            ["fevereiro", 2],
                            ["março", 3]])
