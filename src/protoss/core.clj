@@ -7,8 +7,8 @@
 
 (defmacro se-opcao-com-arg [cmdline opt arg & body]
   `(se-opcao ~cmdline ~opt
-       (let [~arg (.getOptionValue ~cmdline ~opt)]
-         ~@body)))
+             (let [~arg (.getOptionValue ~cmdline ~opt)]
+               ~@body)))
 
 (defn configurar-opcoes []
   (doto (Options.)
@@ -21,9 +21,11 @@
     (.addOption "p" "planilhas" true "atualiza as planilhas dos clientes com os documentos referentes à data de emissão")
     (.addOption "x" "excluir" true "remove do banco de dados os documentos referentes à data de emissão")))
 
-(defn -main [& args]
-  (let [opcoes (configurar-opcoes)
-        parser (GnuParser.)
+(defn mostrar-ajuda [opcoes] 
+  (.printHelp (HelpFormatter.) "protoss" opcoes))
+
+(defn dispatcher [args opcoes]
+  (let [parser (GnuParser.)
         cmdline (.parse parser opcoes (into-array (conj args "")))]
     (doto cmdline
       (se-opcao "c"
@@ -39,6 +41,13 @@
       (se-opcao-com-arg "x" data-de-emissao
                         (println (str "Excluindo dados de " data-de-emissao "...")))
       (se-opcao "h"
-                (.printHelp (HelpFormatter.) "protoss" opcoes)))
-    nil))
+                (mostrar-ajuda opcoes)))))
+
+(defn -main [& args]
+  (let [opcoes (configurar-opcoes)]
+    (try
+      (dispatcher args opcoes)
+      (println "Feito.")
+      (catch Exception e
+        (mostrar-ajuda opcoes)))))
 
