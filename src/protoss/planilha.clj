@@ -16,8 +16,8 @@
 
 (defn ler-linha [planilha linha campos] 
   (apply merge 
-    (map (fn [i] {(keyword (.toLowerCase (.getValueAt planilha 0 i))) (.getValueAt planilha linha i)})
-         (range campos))))
+         (map (fn [i] {(keyword (.toLowerCase (.getValueAt planilha 0 i))) (.getValueAt planilha linha i)})
+              (range campos))))
 
 (defn ler []
   (let [arquivo (File. "dados.ods")
@@ -30,7 +30,7 @@
                                           (map (fn [i] (ler-linha empresas i 15))
                                                (range 1 (.getRowCount empresas))))))
         lancamentos-lidos (vec 
-                            (sort-by (fn [c] (str (:modelo c) (:cliente c) (:descricao c)))
+                            (sort-by (fn [c] [(:modelo c) (:cliente c) (:descricao c)])
                                      (remove (fn [registro] (= (:cliente registro) ""))
                                              (map (fn [i] (ler-linha lancamentos i 5))
                                                   (range 1 (.getRowCount lancamentos))))))]
