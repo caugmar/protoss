@@ -24,11 +24,15 @@
         planilha (SpreadSheet/createFromFile arquivo)
         empresas (.getTableModel (.getSheet planilha 0) 0 0)
         lancamentos (.getTableModel (.getSheet planilha 1) 0 0)
-        empresas-lidas (remove (fn [registro] (= (:cliente registro) ""))
-                               (map (fn [i] (ler-linha empresas i 15))
-                                    (range (inc (.getRowCount empresas)))))
-        lancamentos-lidos (remove (fn [registro] (= (:cliente registro) ""))
-                                  (map (fn [i] (ler-linha lancamentos i 5))
-                                       (range (inc (.getRowCount lancamentos)))))]
-    [empresas-lidas lancamentos-lidos]))
+        empresas-lidas (vec 
+                         (sort-by :nome 
+                                  (remove (fn [registro] (= (:cliente registro) ""))
+                                          (map (fn [i] (ler-linha empresas i 15))
+                                               (range 1 (.getRowCount empresas))))))
+        lancamentos-lidos (vec 
+                            (sort-by (fn [c] (str (:modelo c) (:cliente c) (:descricao c)))
+                                     (remove (fn [registro] (= (:cliente registro) ""))
+                                             (map (fn [i] (ler-linha lancamentos i 5))
+                                                  (range 1 (.getRowCount lancamentos))))))]
+    {:empresas empresas-lidas :lancamentos lancamentos-lidos}))
 
