@@ -28,20 +28,13 @@
   (let [parser (GnuParser.)
         cmdline (.parse parser opcoes (into-array (conj args "")))]
     (doto cmdline
-      (se-opcao "c"
-                (println "Carregando..."))
-      (se-opcao "g"
-                (println "Gerando..."))
-      (se-opcao-com-arg "e" data-de-emissao
-                        (println (str "Emitindo " data-de-emissao "...")))
-      (se-opcao-com-arg "r" data-de-emissao
-                        (println (str "Gerando relatórios de " data-de-emissao "...")))
-      (se-opcao-com-arg "p" data-de-emissao
-                        (println (str "Atualizando planilhas com os dados de " data-de-emissao "...")))
-      (se-opcao-com-arg "x" data-de-emissao
-                        (println (str "Excluindo dados de " data-de-emissao "...")))
-      (se-opcao "h"
-                (mostrar-ajuda opcoes)))))
+      (se-opcao "c" (println "Carregando..."))
+      (se-opcao "g" (println "Gerando..."))
+      (se-opcao-com-arg "e" emissao (println (str "Emitindo " emissao "...")))
+      (se-opcao-com-arg "r" emissao (println (str "Gerando relatórios de " emissao "...")))
+      (se-opcao-com-arg "p" emissao (println (str "Atualizando planilhas com os dados de " emissao "...")))
+      (se-opcao-com-arg "x" emissao (println (str "Excluindo dados de " emissao "...")))
+      (se-opcao "h" (mostrar-ajuda opcoes)))))
 
 (defn -main [& args]
   (let [opcoes (configurar-opcoes)]
