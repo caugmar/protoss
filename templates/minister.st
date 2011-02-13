@@ -1,7 +1,7 @@
 +============================================================================+
-|  L  B  M  -  ESCRITÓRIO DE SERVIÇOS IBIÚNA LTDA. - ME                      |
-|  Avenida Vereador Benedito de Campos, 156 - 1º Andar - Salas 5 e 6         |
-|  Centro - Ibiúna - SP  -- CNPJ nº 05.296.042/0001-35 - I.M. nº 5.910       | 
+|  M I N I S T E R   S E R V I Ç O S   C O N T Á B E I S   S / C   L T D A.  |
+|     Av. Ver. Benedito de Campos, 156 - 1o. andar - Centro - Ibiúna - SP    |
+|              CNPJ 49.313.661/0001-66 - CRC SP 2.210 - IM 00421             |
 +============================================================+===============+
 | Nome: $nome                                              $ |     NFFS      |
 | Endereço: $endereco3                                     $ |   SÉRIE "U"   |
@@ -16,15 +16,15 @@
 | $q3$ | $d3                                $ |    $v3       $ | $v3       $ |
 | $q4$ | $d4                                $ |    $v4       $ | $v4       $ |
 +------+---------------------------------+----+----------------+-------------+
-|                                        |      Total da Nota: | $total    $ |
-| NÃO VALE COMO RECIBO. Não é sujeito ao +---------------------+-------------+
-| ICMS, cfe Dec. Lei 406 de 31/12/1968 e |                                   |
-| Lei 834 de 08/09/1969.                 |   Vencimento: $vcto    $. Após,   |
-|                                        |   cobrar encargos financeiros.    |
-|                                        |                                   |
+| NÃO VALE COMO RECIBO.                  |               Soma: | $total    $ |
+| Não está sujeito ao ICMS, conforme o   |   (-) IRFON (1,5%): |        0,00 |
+| Decreto Lei 406 de 31/12/1968,         |      Total da Nota: | $total    $ |
+| alterado pelo Decreto Lei 834 de       +---------------------+-------------+
+| 08/09/1969.                            | Vencimento: $vcto    $. Depois,   |
+|                                        | cobrar encargos financeiros.      |
 +==========+=============================+===================================+
-|          | Recebi(emos) de LBM - ESCRITÓRIO DE SERVIÇOS IBIÚNA LTDA. -ME   |
-| NFFS No. | os serviços constantes desta Nota Fiscal de Fatura de Serviços. |
+|          | Recebi(emos) de MINISTER SERVIÇOS CONTÁBEIS S/C LTDA. os        |
+| NFFS No. | serviços constantes desta Nota Fiscal de Fatura de Serviços.    |
 |          |                                                                 |
 |  $nffs$  |                                                                 |
 |          | Data: ___/___/______  Carimbo e Assinatura: ___________________ |
@@ -32,9 +32,9 @@
 
 
 +============================================================================+
-|  L  B  M  -  ESCRITÓRIO DE SERVIÇOS IBIÚNA LTDA. - ME                      |
-|  Avenida Vereador Benedito de Campos, 156 - 1º Andar - Salas 5 e 6         |
-|  Centro - Ibiúna - SP  -- CNPJ nº 05.296.042/0001-35 - I.M. nº 5.910       | 
+|  M I N I S T E R   S E R V I Ç O S   C O N T Á B E I S   S / C   L T D A.  |
+|     Av. Ver. Benedito de Campos, 156 - 1o. andar - Centro - Ibiúna - SP    |
+|              CNPJ 49.313.661/0001-66 - CRC SP 2.210 - IM 00421             |
 +============================================================+===============+
 | Nome: $nome                                              $ |     NFFS      |
 | Endereço: $endereco3                                     $ |   SÉRIE "U"   |
@@ -49,15 +49,15 @@
 | $q3$ | $d3                                $ |    $v3       $ | $v3       $ |
 | $q4$ | $d4                                $ |    $v4       $ | $v4       $ |
 +------+---------------------------------+----+----------------+-------------+
-|                                        |      Total da Nota: | $total    $ |
-| NÃO VALE COMO RECIBO. Não é sujeito ao +---------------------+-------------+
-| ICMS, cfe Dec. Lei 406 de 31/12/1968 e |                                   |
-| Lei 834 de 08/09/1969.                 |   Vencimento: $vcto    $. Após,   |
-|                                        |   cobrar encargos financeiros.    |
-|                                        |                                   |
+| NÃO VALE COMO RECIBO.                  |               Soma: | $total    $ |
+| Não está sujeito ao ICMS, conforme o   |   (-) IRFON (1,5%): |        0,00 |
+| Decreto Lei 406 de 31/12/1968,         |      Total da Nota: | $total    $ |
+| alterado pelo Decreto Lei 834 de       +---------------------+-------------+
+| 08/09/1969.                            | Vencimento: $vcto    $. Depois,   |
+|                                        | cobrar encargos financeiros.      |
 +==========+=============================+===================================+
-|          | Recebi(emos) de LBM - ESCRITÓRIO DE SERVIÇOS IBIÚNA LTDA. -ME   |
-| NFFS No. | os serviços constantes desta Nota Fiscal de Fatura de Serviços. |
+|          | Recebi(emos) de MINISTER SERVIÇOS CONTÁBEIS S/C LTDA. os        |
+| NFFS No. | serviços constantes desta Nota Fiscal de Fatura de Serviços.    |
 |          |                                                                 |
 |  $nffs$  |                                                                 |
 |          | Data: ___/___/______  Carimbo e Assinatura: ___________________ |
@@ -65,9 +65,9 @@
 
 
 +============================================================================+
-|  L  B  M  -  ESCRITÓRIO DE SERVIÇOS IBIÚNA LTDA. - ME                      |
-|  Avenida Vereador Benedito de Campos, 156 - 1º Andar - Salas 5 e 6         |
-|  Centro - Ibiúna - SP  -- CNPJ nº 05.296.042/0001-35 - I.M. nº 5.910       | 
+|  M I N I S T E R   S E R V I Ç O S   C O N T Á B E I S   S / C   L T D A.  |
+|     Av. Ver. Benedito de Campos, 156 - 1o. andar - Centro - Ibiúna - SP    |
+|              CNPJ 49.313.661/0001-66 - CRC SP 2.210 - IM 00421             |
 +============================================================+===============+
 | Nome: $nome                                              $ |     NFFS      |
 | Endereço: $endereco3                                     $ |   SÉRIE "U"   |
@@ -82,15 +82,15 @@
 | $q3$ | $d3                                $ |    $v3       $ | $v3       $ |
 | $q4$ | $d4                                $ |    $v4       $ | $v4       $ |
 +------+---------------------------------+----+----------------+-------------+
-|                                        |      Total da Nota: | $total    $ |
-| NÃO VALE COMO RECIBO. Não é sujeito ao +---------------------+-------------+
-| ICMS, cfe Dec. Lei 406 de 31/12/1968 e |                                   |
-| Lei 834 de 08/09/1969.                 |   Vencimento: $vcto    $. Após,   |
-|                                        |   cobrar encargos financeiros.    |
-|                                        |                                   |
+| NÃO VALE COMO RECIBO.                  |               Soma: | $total    $ |
+| Não está sujeito ao ICMS, conforme o   |   (-) IRFON (1,5%): |        0,00 |
+| Decreto Lei 406 de 31/12/1968,         |      Total da Nota: | $total    $ |
+| alterado pelo Decreto Lei 834 de       +---------------------+-------------+
+| 08/09/1969.                            | Vencimento: $vcto    $. Depois,   |
+|                                        | cobrar encargos financeiros.      |
 +==========+=============================+===================================+
-|          | Recebi(emos) de LBM - ESCRITÓRIO DE SERVIÇOS IBIÚNA LTDA. -ME   |
-| NFFS No. | os serviços constantes desta Nota Fiscal de Fatura de Serviços. |
+|          | Recebi(emos) de MINISTER SERVIÇOS CONTÁBEIS S/C LTDA. os        |
+| NFFS No. | serviços constantes desta Nota Fiscal de Fatura de Serviços.    |
 |          |                                                                 |
 |  $nffs$  |                                                                 |
 |          | Data: ___/___/______  Carimbo e Assinatura: ___________________ |
@@ -98,29 +98,29 @@
 
 
 +============================================================================+
-|  L  B  M  -  ESCRITÓRIO DE SERVIÇOS IBIÚNA LTDA. - ME                      |
-|  Avenida Vereador Benedito de Campos, 156 - 1º Andar - Salas 5 e 6         |
-|  Centro - Ibiúna - SP  -- CNPJ nº 05.296.042/0001-35 - I.M. nº 5.910       | 
+|  M I N I S T E R   S E R V I Ç O S   C O N T Á B E I S   S / C   L T D A.  |
+|     Av. Ver. Benedito de Campos, 156 - 1o. andar - Centro - Ibiúna - SP    |
+|              CNPJ 49.313.661/0001-66 - CRC SP 2.210 - IM 00421             |
 +============================================================+===============+
-| Nome: $nome                                              $ |               |
-| Endereço: $endereco3                                     $ | R E C I B O   |
-| $endereco4                                               $ | Vencimento:   |
-| CNPJ: $cnpj            $ - IE: $ie           $ - IM: $im $ | $vcto    $    |
+| Nome: $nome                                              $ | R E C I B O   |
+| Endereço: $endereco3                                     $ | Vencimento:   |
+| $endereco4                                               $ | $vcto    $    |
+| CNPJ: $cnpj            $ - IE: $ie           $ - IM: $im $ |               |
 | Condições: A VISTA             Data da Emissão: $emissao $ |               |
 +============================================================+===============+
+|                              Total da Nota................: R\$ $total    $ |
+|                              (-) IRFON (1,5%). ...........: R\$        0,00 |
+|                              (-) Contr. Sociais (4,65%)...: R\$        0,00 |
+|                              (=) Valor Líquido............: R\$ $total    $ |
 |                                                                            |
-|                                                    Valor...R$ $total    $  |
-|                                                  Líquido...R$ $total    $  |
-|                                                                            |
-|                                                                            |
-|  Recebemos da firma acima qualificada o valor líquido de R$ $total    $    |
+|  Recebemos da firma acima qualificada o valor líquido de R\$ $total    $    |
 |  ($extenso                                                            $),  |
 |  referente à nossa Nota Fiscal Fatura de Serviços no. $nffs$, emitida em   |
 |  $emissao $.  Por ser verdade firmamos o presente, dando quitação do       |
 |  valor recebido.                                                           |
 |                                                                            |
-|                                                                            |
 |                                                   Ibiúna, ___/___/______.  |
+|                                                                            |
 |                                                                            |
 |                                                                            |
 |                                                                            |

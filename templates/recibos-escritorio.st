@@ -46,7 +46,7 @@
 <p>Recebi de MINISTER SERVIÇOS CONTÁBEIS LTDA,
 firma estabelecida à Avenida Vereador Benedito de
 Campos, n.º 156, Ibiúna, SP, CNPJ n.º
-49.313.661/0001-66, a importância líquida de R$
+49.313.661/0001-66, a importância líquida de R\$
 60,00 (sessenta reais), referente ao
 aluguel mensal da sala comercial n.° 7 no 2.º
 pavimento do imóvel acima, vencido em
@@ -102,7 +102,7 @@ Centro - Ibiúna - SP
 
 <p>Recebi de AGRO COMERCIAL TAKAFUJI LTDA, firma estabelecida à Avenida São
 Sebastião, n.º 651, Ibiúna, SP, CNPJ n.º 45.405.651/0001-08, a importância
-líquida de R$ 1.400,00 (um mil e quatrocentos reais), referente ao aluguel
+líquida de R\$ 1.400,00 (um mil e quatrocentos reais), referente ao aluguel
 mensal de um salão comercial no endereço acima, vencido em @vencimento.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
@@ -144,7 +144,7 @@ Centro - Ibiúna - SP
 LTDA. - ME, firma estabelecida à Avenida Vereador
 Benedito de Campos, n.º 156, 1.º andar, sala 6,
 Ibiúna, SP, CNPJ n.º 05.296.042/0001-35, a
-importância líquida de R$ 60,00 (sessenta
+importância líquida de R\$ 60,00 (sessenta
 reais), referente ao aluguel mensal de salas
 comerciais no 2.º pavimento do imóvel acima,
 vencido em @vencimento.</p>
