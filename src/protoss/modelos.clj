@@ -1,9 +1,8 @@
 (ns protoss.modelos
-  (:import [org.antlr.stringtemplate StringTemplate]
-           [org.antlr.stringtemplate.language DefaultTemplateLexer]))
+  (:import [org.antlr.stringtemplate StringTemplateGroup]))
 
-(defn exibir []
-  (let [tpl (StringTemplate. "Hello, $nome$!" DefaultTemplateLexer)]
-    (.setAttribute tpl "nome" "Guto Marcicano")
-    (str tpl)))
+(def modelos (StringTemplateGroup. "templates" "."))
+(def aviso (.getInstanceOf modelos "aviso"))
+(def minister (.getInstanceOf modelos "minister"))
+(def lbm (.getInstanceOf modelos "lbm"))
 
