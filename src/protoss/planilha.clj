@@ -31,8 +31,9 @@
                                                (range 1 (.getRowCount empresas))))))
         lancamentos-lidos (vec 
                             (sort-by (fn [c] [(:modelo c) (:cliente c) (:descricao c)])
-                                     (remove (fn [registro] (= (:cliente registro) ""))
-                                             (map (fn [i] (ler-linha lancamentos i 5))
-                                                  (range 1 (.getRowCount lancamentos))))))]
+                                     (remove (fn [registro] (= (:qtd registro) 0))
+                                             (remove (fn [registro] (= (:cliente registro) ""))
+                                                     (map (fn [i] (ler-linha lancamentos i 5))
+                                                          (range 1 (.getRowCount lancamentos)))))))]
     {:empresas empresas-lidas :lancamentos lancamentos-lidos}))
 
