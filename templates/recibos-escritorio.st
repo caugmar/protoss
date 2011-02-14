@@ -41,34 +41,34 @@
 <body>
 @empy.startDiversion("minister")
 
-<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
+<h1>RECIBO DE ALUGUEL DE IMÃ“VEL</h1>
 
-<p>Recebi de MINISTER SERVIÇOS CONTÁBEIS LTDA,
-firma estabelecida à Avenida Vereador Benedito de
-Campos, n.º 156, Ibiúna, SP, CNPJ n.º
-49.313.661/0001-66, a importância líquida de R\$
+<p>Recebi de MINISTER SERVIÃ‡OS CONTÃBEIS LTDA,
+firma estabelecida Ã  Avenida Vereador Benedito de
+Campos, n.Âº 156, IbiÃºna, SP, CNPJ n.Âº
+49.313.661/0001-66, a importÃ¢ncia lÃ­quida de R\$
 60,00 (sessenta reais), referente ao
-aluguel mensal da sala comercial n.° 7 no 2.º
-pavimento do imóvel acima, vencido em
+aluguel mensal da sala comercial n.Â° 7 no 2.Âº
+pavimento do imÃ³vel acima, vencido em
 @vencimento.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
-<p class="data">Ibiúna, @pagamento.</p>
+<p class="data">IbiÃºna, @pagamento.</p>
 
 @empy.stopDiverting()
 @empy.replayDiversion("minister")
 
 <p class="assinatura">
 ______________________________ <br />
-JOSÉ ANTÔNIO MARCICANO
+JOSÃ‰ ANTÃ”NIO MARCICANO
 </p>
 
 <p class="locador">
-JOSÉ ANTÔNIO MARCICANO <br />
-CIC n.° 238.514.658-49 <br />
+JOSÃ‰ ANTÃ”NIO MARCICANO <br />
+CIC n.Â° 238.514.658-49 <br />
 Rua Doutor Gabriel Monteiro da Silva, 297 <br />
-Centro - Ibiúna - SP
+Centro - IbiÃºna - SP
 </p>
 @empy.replayDiversion("minister")
 
@@ -79,9 +79,9 @@ ELIZEU MARCICANO
 
 <p class="locador">
 ELIZEU MARCICANO <br />
-CIC n.° 038.457.708-30 <br />
+CIC n.Â° 038.457.708-30 <br />
 Rua Cirineu Soares de Campos, 220 <br />
-Centro - Ibiúna - SP
+Centro - IbiÃºna - SP
 </p>
 @empy.replayDiversion("minister")
 
@@ -92,22 +92,22 @@ CELSO MARCICANO
 
 <p class="locador">
 CELSO MARCICANO <br />
-CIC n.° 038.457.458-00 <br />
+CIC n.Â° 038.457.458-00 <br />
 Rua Benjamin Constant, 245 <br />
-Centro - Ibiúna - SP
+Centro - IbiÃºna - SP
 </p>
 @empy.startDiversion("takafuji")
 
-<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
+<h1>RECIBO DE ALUGUEL DE IMÃ“VEL</h1>
 
-<p>Recebi de AGRO COMERCIAL TAKAFUJI LTDA, firma estabelecida à Avenida São
-Sebastião, n.º 651, Ibiúna, SP, CNPJ n.º 45.405.651/0001-08, a importância
-líquida de R\$ 1.400,00 (um mil e quatrocentos reais), referente ao aluguel
-mensal de um salão comercial no endereço acima, vencido em @vencimento.</p>
+<p>Recebi de AGRO COMERCIAL TAKAFUJI LTDA, firma estabelecida Ã  Avenida SÃ£o
+SebastiÃ£o, n.Âº 651, IbiÃºna, SP, CNPJ n.Âº 45.405.651/0001-08, a importÃ¢ncia
+lÃ­quida de R\$ 1.400,00 (um mil e quatrocentos reais), referente ao aluguel
+mensal de um salÃ£o comercial no endereÃ§o acima, vencido em @vencimento.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
-<p class="data">Ibiúna, @pagamento.</p>
+<p class="data">IbiÃºna, @pagamento.</p>
 
 @empy.stopDiverting()
 @empy.replayDiversion("takafuji")
@@ -119,9 +119,9 @@ EIJI TAKAFUJI
 
 <p class="locador">
 EIJI TAKAFUJI <br />
-CIC n.° 187.029.708-30 <br />
-Rua José Eugênio Machado, n.º 595 <br />
-Centro - Ibiúna - SP
+CIC n.Â° 187.029.708-30 <br />
+Rua JosÃ© EugÃªnio Machado, n.Âº 595 <br />
+Centro - IbiÃºna - SP
 </p>
 @empy.replayDiversion("takafuji")
 
@@ -132,26 +132,26 @@ ABIGAIL LUIZA DE MORAES TAKAFUJI
 
 <p class="locador">
 ABIGAIL LUIZA DE MORAES TAKAFUJI <br />
-CIC n.° 039.466.688-79 <br />
-Rua José Eugênio Machado, n.º 595 <br />
-Centro - Ibiúna - SP
+CIC n.Â° 039.466.688-79 <br />
+Rua JosÃ© EugÃªnio Machado, n.Âº 595 <br />
+Centro - IbiÃºna - SP
 </p>
 @empy.startDiversion("lbm")
 
-<h1>RECIBO DE ALUGUEL DE IMÓVEL</h1>
+<h1>RECIBO DE ALUGUEL DE IMÃ“VEL</h1>
 
-<p>Recebi de LBM - ESCRITÓRIO DE SERVIÇOS IBIÚNA
-LTDA. - ME, firma estabelecida à Avenida Vereador
-Benedito de Campos, n.º 156, 1.º andar, sala 6,
-Ibiúna, SP, CNPJ n.º 05.296.042/0001-35, a
-importância líquida de R\$ 60,00 (sessenta
+<p>Recebi de LBM - ESCRITÃ“RIO DE SERVIÃ‡OS IBIÃšNA
+LTDA. - ME, firma estabelecida Ã  Avenida Vereador
+Benedito de Campos, n.Âº 156, 1.Âº andar, sala 6,
+IbiÃºna, SP, CNPJ n.Âº 05.296.042/0001-35, a
+importÃ¢ncia lÃ­quida de R\$ 60,00 (sessenta
 reais), referente ao aluguel mensal de salas
-comerciais no 2.º pavimento do imóvel acima,
+comerciais no 2.Âº pavimento do imÃ³vel acima,
 vencido em @vencimento.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
-<p class="data">Ibiúna, @pagamento.</p>
+<p class="data">IbiÃºna, @pagamento.</p>
 
 @empy.stopDiverting()
 @empy.replayDiversion("lbm")
@@ -159,14 +159,14 @@ vencido em @vencimento.</p>
 <p class="assinatura">
 ______________________________ <br />
 
-JOSÉ ANTÔNIO MARCICANO
+JOSÃ‰ ANTÃ”NIO MARCICANO
 </p>
 
 <p class="locador">
-JOSÉ ANTÔNIO MARCICANO <br />
-CIC n.° 238.514.658-49 <br />
+JOSÃ‰ ANTÃ”NIO MARCICANO <br />
+CIC n.Â° 238.514.658-49 <br />
 Rua Doutor Gabriel Monteiro da Silva, 297 <br />
-Centro - Ibiúna - SP
+Centro - IbiÃºna - SP
 </p>
 @empy.replayDiversion("lbm")
 
@@ -177,9 +177,9 @@ ELIZEU MARCICANO
 
 <p class="locador">
 ELIZEU MARCICANO <br />
-CIC n.° 038.457.708-30 <br />
+CIC n.Â° 038.457.708-30 <br />
 Rua Cirineu Soares de Campos, 220 <br />
-Centro - Ibiúna - SP
+Centro - IbiÃºna - SP
 </p>
 @empy.replayDiversion("lbm")
 
@@ -190,9 +190,9 @@ CELSO MARCICANO
 
 <p class="locador">
 CELSO MARCICANO <br />
-CIC n.° 038.457.458-00 <br />
+CIC n.Â° 038.457.458-00 <br />
 Rua Benjamin Constant, 245 <br />
-Centro - Ibiúna - SP
+Centro - IbiÃºna - SP
 </p>
 </body>
 </html>

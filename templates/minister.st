@@ -1,30 +1,30 @@
 +============================================================================+
-|  M I N I S T E R   S E R V I « O S   C O N T ¡ B E I S   S / C   L T D A.  |
-|     Av. Ver. Benedito de Campos, 156 - 1o. andar - Centro - Ibi˙na - SP    |
+|  M I N I S T E R   S E R V I √á O S   C O N T √Å B E I S   S / C   L T D A.  |
+|     Av. Ver. Benedito de Campos, 156 - 1o. andar - Centro - Ibi√∫na - SP    |
 |              CNPJ 49.313.661/0001-66 - CRC SP 2.210 - IM 00421             |
 +============================================================+===============+
 | Nome: $nome                                              $ |     NFFS      |
-| EndereÁo: $endereco3                                     $ |   S…RIE "U"   |
+| Endere√ßo: $endereco3                                     $ |   S√âRIE "U"   |
 | $endereco4                                               $ |  No. $nffs$   |
 | CNPJ: $cnpj            $ - IE: $ie           $ - IM: $im $ |    1a. VIA    |
-| CondiÁıes: A VISTA             Data da Emiss„o: $emissao $ | DESTINAT¡RIO  |
+| Condi√ß√µes: A VISTA             Data da Emiss√£o: $emissao $ | DESTINAT√ÅRIO  |
 +======+======================================+==============+=+=============+
-| Qtd. | DescriÁ„o dos ServiÁos               | PreÁo Unit·rio | PreÁo Total |
+| Qtd. | Descri√ß√£o dos Servi√ßos               | Pre√ßo Unit√°rio | Pre√ßo Total |
 +------+--------------------------------------+----------------+-------------+
 | $q1$ | $d1                                $ |    $v1       $ | $v1       $ |
 | $q2$ | $d2                                $ |    $v2       $ | $v2       $ |
 | $q3$ | $d3                                $ |    $v3       $ | $v3       $ |
 | $q4$ | $d4                                $ |    $v4       $ | $v4       $ |
 +------+---------------------------------+----+----------------+-------------+
-| N√O VALE COMO RECIBO.                  |               Soma: | $total    $ |
-| N„o est· sujeito ao ICMS, conforme o   |   (-) IRFON (1,5%): |        0,00 |
+| N√ÉO VALE COMO RECIBO.                  |               Soma: | $total    $ |
+| N√£o est√° sujeito ao ICMS, conforme o   |   (-) IRFON (1,5%): |        0,00 |
 | Decreto Lei 406 de 31/12/1968,         |      Total da Nota: | $total    $ |
 | alterado pelo Decreto Lei 834 de       +---------------------+-------------+
 | 08/09/1969.                            | Vencimento: $vcto    $. Depois,   |
 |                                        | cobrar encargos financeiros.      |
 +==========+=============================+===================================+
-|          | Recebi(emos) de MINISTER SERVI«OS CONT¡BEIS S/C LTDA. os        |
-| NFFS No. | serviÁos constantes desta Nota Fiscal de Fatura de ServiÁos.    |
+|          | Recebi(emos) de MINISTER SERVI√áOS CONT√ÅBEIS S/C LTDA. os        |
+| NFFS No. | servi√ßos constantes desta Nota Fiscal de Fatura de Servi√ßos.    |
 |          |                                                                 |
 |  $nffs$  |                                                                 |
 |          | Data: ___/___/______  Carimbo e Assinatura: ___________________ |
@@ -32,32 +32,32 @@
 
 
 +============================================================================+
-|  M I N I S T E R   S E R V I « O S   C O N T ¡ B E I S   S / C   L T D A.  |
-|     Av. Ver. Benedito de Campos, 156 - 1o. andar - Centro - Ibi˙na - SP    |
+|  M I N I S T E R   S E R V I √á O S   C O N T √Å B E I S   S / C   L T D A.  |
+|     Av. Ver. Benedito de Campos, 156 - 1o. andar - Centro - Ibi√∫na - SP    |
 |              CNPJ 49.313.661/0001-66 - CRC SP 2.210 - IM 00421             |
 +============================================================+===============+
 | Nome: $nome                                              $ |     NFFS      |
-| EndereÁo: $endereco3                                     $ |   S…RIE "U"   |
+| Endere√ßo: $endereco3                                     $ |   S√âRIE "U"   |
 | $endereco4                                               $ |  No. $nffs$   |
 | CNPJ: $cnpj            $ - IE: $ie           $ - IM: $im $ |    2a. VIA    |
-| CondiÁıes: A VISTA             Data da Emiss„o: $emissao $ | CONTABILIDADE |
+| Condi√ß√µes: A VISTA             Data da Emiss√£o: $emissao $ | CONTABILIDADE |
 +======+======================================+==============+=+=============+
-| Qtd. | DescriÁ„o dos ServiÁos               | PreÁo Unit·rio | PreÁo Total |
+| Qtd. | Descri√ß√£o dos Servi√ßos               | Pre√ßo Unit√°rio | Pre√ßo Total |
 +------+--------------------------------------+----------------+-------------+
 | $q1$ | $d1                                $ |    $v1       $ | $v1       $ |
 | $q2$ | $d2                                $ |    $v2       $ | $v2       $ |
 | $q3$ | $d3                                $ |    $v3       $ | $v3       $ |
 | $q4$ | $d4                                $ |    $v4       $ | $v4       $ |
 +------+---------------------------------+----+----------------+-------------+
-| N√O VALE COMO RECIBO.                  |               Soma: | $total    $ |
-| N„o est· sujeito ao ICMS, conforme o   |   (-) IRFON (1,5%): |        0,00 |
+| N√ÉO VALE COMO RECIBO.                  |               Soma: | $total    $ |
+| N√£o est√° sujeito ao ICMS, conforme o   |   (-) IRFON (1,5%): |        0,00 |
 | Decreto Lei 406 de 31/12/1968,         |      Total da Nota: | $total    $ |
 | alterado pelo Decreto Lei 834 de       +---------------------+-------------+
 | 08/09/1969.                            | Vencimento: $vcto    $. Depois,   |
 |                                        | cobrar encargos financeiros.      |
 +==========+=============================+===================================+
-|          | Recebi(emos) de MINISTER SERVI«OS CONT¡BEIS S/C LTDA. os        |
-| NFFS No. | serviÁos constantes desta Nota Fiscal de Fatura de ServiÁos.    |
+|          | Recebi(emos) de MINISTER SERVI√áOS CONT√ÅBEIS S/C LTDA. os        |
+| NFFS No. | servi√ßos constantes desta Nota Fiscal de Fatura de Servi√ßos.    |
 |          |                                                                 |
 |  $nffs$  |                                                                 |
 |          | Data: ___/___/______  Carimbo e Assinatura: ___________________ |
@@ -65,32 +65,32 @@
 
 
 +============================================================================+
-|  M I N I S T E R   S E R V I « O S   C O N T ¡ B E I S   S / C   L T D A.  |
-|     Av. Ver. Benedito de Campos, 156 - 1o. andar - Centro - Ibi˙na - SP    |
+|  M I N I S T E R   S E R V I √á O S   C O N T √Å B E I S   S / C   L T D A.  |
+|     Av. Ver. Benedito de Campos, 156 - 1o. andar - Centro - Ibi√∫na - SP    |
 |              CNPJ 49.313.661/0001-66 - CRC SP 2.210 - IM 00421             |
 +============================================================+===============+
 | Nome: $nome                                              $ |     NFFS      |
-| EndereÁo: $endereco3                                     $ |   S…RIE "U"   |
+| Endere√ßo: $endereco3                                     $ |   S√âRIE "U"   |
 | $endereco4                                               $ |  No. $nffs$   |
 | CNPJ: $cnpj            $ - IE: $ie           $ - IM: $im $ |    3a. VIA    |
-| CondiÁıes: A VISTA             Data da Emiss„o: $emissao $ |      FIXA     |
+| Condi√ß√µes: A VISTA             Data da Emiss√£o: $emissao $ |      FIXA     |
 +======+======================================+==============+=+=============+
-| Qtd. | DescriÁ„o dos ServiÁos               | PreÁo Unit·rio | PreÁo Total |
+| Qtd. | Descri√ß√£o dos Servi√ßos               | Pre√ßo Unit√°rio | Pre√ßo Total |
 +------+--------------------------------------+----------------+-------------+
 | $q1$ | $d1                                $ |    $v1       $ | $v1       $ |
 | $q2$ | $d2                                $ |    $v2       $ | $v2       $ |
 | $q3$ | $d3                                $ |    $v3       $ | $v3       $ |
 | $q4$ | $d4                                $ |    $v4       $ | $v4       $ |
 +------+---------------------------------+----+----------------+-------------+
-| N√O VALE COMO RECIBO.                  |               Soma: | $total    $ |
-| N„o est· sujeito ao ICMS, conforme o   |   (-) IRFON (1,5%): |        0,00 |
+| N√ÉO VALE COMO RECIBO.                  |               Soma: | $total    $ |
+| N√£o est√° sujeito ao ICMS, conforme o   |   (-) IRFON (1,5%): |        0,00 |
 | Decreto Lei 406 de 31/12/1968,         |      Total da Nota: | $total    $ |
 | alterado pelo Decreto Lei 834 de       +---------------------+-------------+
 | 08/09/1969.                            | Vencimento: $vcto    $. Depois,   |
 |                                        | cobrar encargos financeiros.      |
 +==========+=============================+===================================+
-|          | Recebi(emos) de MINISTER SERVI«OS CONT¡BEIS S/C LTDA. os        |
-| NFFS No. | serviÁos constantes desta Nota Fiscal de Fatura de ServiÁos.    |
+|          | Recebi(emos) de MINISTER SERVI√áOS CONT√ÅBEIS S/C LTDA. os        |
+| NFFS No. | servi√ßos constantes desta Nota Fiscal de Fatura de Servi√ßos.    |
 |          |                                                                 |
 |  $nffs$  |                                                                 |
 |          | Data: ___/___/______  Carimbo e Assinatura: ___________________ |
@@ -98,34 +98,34 @@
 
 
 +============================================================================+
-|  M I N I S T E R   S E R V I « O S   C O N T ¡ B E I S   S / C   L T D A.  |
-|     Av. Ver. Benedito de Campos, 156 - 1o. andar - Centro - Ibi˙na - SP    |
+|  M I N I S T E R   S E R V I √á O S   C O N T √Å B E I S   S / C   L T D A.  |
+|     Av. Ver. Benedito de Campos, 156 - 1o. andar - Centro - Ibi√∫na - SP    |
 |              CNPJ 49.313.661/0001-66 - CRC SP 2.210 - IM 00421             |
 +============================================================+===============+
 | Nome: $nome                                              $ | R E C I B O   |
-| EndereÁo: $endereco3                                     $ | Vencimento:   |
+| Endere√ßo: $endereco3                                     $ | Vencimento:   |
 | $endereco4                                               $ | $vcto    $    |
 | CNPJ: $cnpj            $ - IE: $ie           $ - IM: $im $ |               |
-| CondiÁıes: A VISTA             Data da Emiss„o: $emissao $ |               |
+| Condi√ß√µes: A VISTA             Data da Emiss√£o: $emissao $ |               |
 +============================================================+===============+
 |                              Total da Nota................: R\$ $total    $ |
 |                              (-) IRFON (1,5%). ...........: R\$        0,00 |
 |                              (-) Contr. Sociais (4,65%)...: R\$        0,00 |
-|                              (=) Valor LÌquido............: R\$ $total    $ |
+|                              (=) Valor L√≠quido............: R\$ $total    $ |
 |                                                                            |
-|  Recebemos da firma acima qualificada o valor lÌquido de R\$ $total    $    |
+|  Recebemos da firma acima qualificada o valor l√≠quido de R\$ $total    $    |
 |  ($extenso                                                            $),  |
-|  referente ‡ nossa Nota Fiscal Fatura de ServiÁos no. $nffs$, emitida em   |
-|  $emissao $.  Por ser verdade firmamos o presente, dando quitaÁ„o do       |
+|  referente √† nossa Nota Fiscal Fatura de Servi√ßos no. $nffs$, emitida em   |
+|  $emissao $.  Por ser verdade firmamos o presente, dando quita√ß√£o do       |
 |  valor recebido.                                                           |
 |                                                                            |
-|                                                   Ibi˙na, ___/___/______.  |
+|                                                   Ibi√∫na, ___/___/______.  |
 |                                                                            |
 |                                                                            |
 |                                                                            |
 |                                                                            |
 |                                            ______________________________  |
-|  P A G A R   N O   V E N C I M E N T O               RESPONS¡VEL           |
+|  P A G A R   N O   V E N C I M E N T O               RESPONS√ÅVEL           |
 |                                                                            |
 +============================================================================+
 

@@ -1,18 +1,18 @@
 +===========================================================================+
-|       -  =  A  V  I  S  O     D  E     C  O  B  R  A  N  «  A  =  -       |
+|       -  =  A  V  I  S  O     D  E     C  O  B  R  A  N  √á  A  =  -       |
 +============================================================+==============+
 | Nome: $nome                                              $ |              |
 +------------------------------------------------------------+   1a. VIA    |
-| EndereÁo: $endereco1                                     $ | DESTINAT¡RIO |
+| Endere√ßo: $endereco1                                     $ | DESTINAT√ÅRIO |
 |           $endereco2                                     $ |              |
 +----------------------------+----------------+--------------+-----+--------+
 | Bairro: $bairro          $ | CEP: $cep    $ | Cidade: $cidade  $ | UF: $u$|
 +----------------------------+-+--------------+-----------+--------+--------+
 | C.N.P.J.: $cnpj            $ | I.E.: $ie           $    | I.M.: $im $     |
 +------------------------------+------+-------------------+-----------------+
-|         CondiÁıes: A VISTA          |     Data da Emiss„o: $emissao $     |
+|         Condi√ß√µes: A VISTA          |     Data da Emiss√£o: $emissao $     |
 +======+==============================+=======================+=============+
-| Qtd. | DescriÁ„o dos ServiÁos                               | PreÁo Total |
+| Qtd. | Descri√ß√£o dos Servi√ßos                               | Pre√ßo Total |
 +------+------------------------------------------------------+-------------+
 | $q1$ | $d1                                $                 | $v1       $ |
 | $q2$ | $d2                                $                 | $v2       $ |
@@ -20,10 +20,10 @@
 | $q4$ | $d4                                $                 | $v4       $ |
 |      |                                                      |             |
 +------+---------------------------------------------+--------+-------------+
-|    Vencimento: $vcto    $. ApÛs, ser„o cobrados    |        |             |
+|    Vencimento: $vcto    $. Ap√≥s, ser√£o cobrados    |        |             |
 |    encargos financeiros.                           | TOTAL: | $total    $ |
 +====================================================+========+=============+
-| Recebi(emos) os serviÁos constantes deste aviso de cobranÁa.              |
+| Recebi(emos) os servi√ßos constantes deste aviso de cobran√ßa.              |
 |                                                                           |
 |                                                                           |
 |                                                                           |

@@ -102,49 +102,49 @@
     <tr> <td> Valor...R\$ </td>                        <td> 533,50 </td> </tr>
     <tr> <td> - Desconto...R\$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R\$ </td>                <td>   0,00 </td> </tr>
-    <tr> <td> + ¡gua (0,00%)...R\$ </td>               <td>   0,00 </td> </tr>
+    <tr> <td> + √Ågua (0,00%)...R\$ </td>               <td>   0,00 </td> </tr>
     <tr> <td> + IPTU 2010 @iptu </td>                 <td>  24,88 </td> </tr>
-    <tr> <td> LÌquido...R\$ </td>                      <td> 558,38 </td> </tr>
+    <tr> <td> L√≠quido...R\$ </td>                      <td> 558,38 </td> </tr>
 </table>
 
 <p class="principal"> Recebi de ANDRADE ALVES PISOS LTDA. - ME, inscrita no
-C.N.P.J.  sob o n.∫ 08.347.797/0001-00, estabelecida ‡ Av. Ver. Benedito de
-Campos, n.∞ 156-A, Ibi˙na, SP, a import‚ncia lÌquida de R\$ 558,38 (quinhentos e
-cinq¸enta e oito reais e trinta e oito centavos) referente ao aluguel mensal de
-um sal„o comercial no 1.∫ pavimento do imÛvel no endereÁo acima, vencido em
-@vcto, cabendo 33,33% da referida import‚ncia lÌquida a cada locador.</p>
+C.N.P.J.  sob o n.¬∫ 08.347.797/0001-00, estabelecida √† Av. Ver. Benedito de
+Campos, n.¬∞ 156-A, Ibi√∫na, SP, a import√¢ncia l√≠quida de R\$ 558,38 (quinhentos e
+cinq√ºenta e oito reais e trinta e oito centavos) referente ao aluguel mensal de
+um sal√£o comercial no 1.¬∫ pavimento do im√≥vel no endere√ßo acima, vencido em
+@vcto, cabendo 33,33% da referida import√¢ncia l√≠quida a cada locador.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
-<p class="data">Ibi˙na, @pgto.</p>
+<p class="data">Ibi√∫na, @pgto.</p>
 
 <p class="assinatura">
 ___________________________________ <br />
-JOS… A. MARCICANO E OUTROS
+JOS√â A. MARCICANO E OUTROS
 </p>
 
 <div class="fim">
-JOS… A. MARCICANO E OUTROS <br />
+JOS√â A. MARCICANO E OUTROS <br />
 Avenida Vereador Benedito de Campos, 156 <br />
-Centro - Ibi˙na - SP
+Centro - Ibi√∫na - SP
 </div>
 
-<p class="periodo">PerÌodo do Contrato de LocaÁ„o: 25/09/2010 a 24/09/2011</p>
+<p class="periodo">Per√≠odo do Contrato de Loca√ß√£o: 25/09/2010 a 24/09/2011</p>
 
 
 @empy.stopDiverting()
 
-<h1>RECIBO DE ALUGUEL DE IM”VEL</h1>
+<h1>RECIBO DE ALUGUEL DE IM√ìVEL</h1>
 
 @empy.replayDiversion("ANDRADE")
 <hr />
 
-<h1>AVISO DE ALUGUEL DE IM”VEL</h1>
+<h1>AVISO DE ALUGUEL DE IM√ìVEL</h1>
 
 @empy.replayDiversion("ANDRADE")
 <span class="pbreak"></span>
 
-<!-- EdinÈia {{{1 -->
+<!-- Edin√©ia {{{1 -->
 @empy.startDiversion("EDINEIA")
 
 <div class="notas">
@@ -161,40 +161,40 @@ Centro - Ibi˙na - SP
     <tr> <td> + Luz 11/2010 (20,00%)...R\$ </td>       <td>   8,57 </td> </tr>
     <tr> <td> + Agua (20,00%)...R\$ </td>              <td>   5,13 </td> </tr>
     <tr> <td> + IPTU 2010 @iptu </td>                 <td>   8,09 </td> </tr>
-    <tr> <td> LÌquido...R\$ </td>                      <td> 201,79 </td> </tr>
+    <tr> <td> L√≠quido...R\$ </td>                      <td> 201,79 </td> </tr>
 </table>
 
-<p class="principal"> Recebi de EDIN…IA KELLER DE SOUZA, estabelecida ‡ Av.
-Ver. Benedito de Campos, 156, Ibi˙na, SP, a import‚ncia lÌquida de R\$
+<p class="principal"> Recebi de EDIN√âIA KELLER DE SOUZA, estabelecida √† Av.
+Ver. Benedito de Campos, 156, Ibi√∫na, SP, a import√¢ncia l√≠quida de R\$
 201,79 (duzentos e um reais e setenta e nove centavos) ref. ao aluguel
-mensal da sala 4 no 3∫ pavimento do imÛvel no endereÁo acima, vencido
-em @vcto, cabendo 33,33% da referida import‚ncia lÌquida a cada locador.</p>
+mensal da sala 4 no 3¬∫ pavimento do im√≥vel no endere√ßo acima, vencido
+em @vcto, cabendo 33,33% da referida import√¢ncia l√≠quida a cada locador.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
-<p class="data">Ibi˙na, @pgto.</p>
+<p class="data">Ibi√∫na, @pgto.</p>
 
 <p class="assinatura">
 ___________________________________ <br />
-JOS… A. MARCICANO E OUTROS
+JOS√â A. MARCICANO E OUTROS
 </p>
 
 <div class="fim">
-JOS… A. MARCICANO E OUTROS <br />
+JOS√â A. MARCICANO E OUTROS <br />
 Avenida Vereador Benedito de Campos, 156 <br />
-Centro - Ibi˙na - SP
+Centro - Ibi√∫na - SP
 </div>
 
-<p class="periodo">PerÌodo do Contrato de LocaÁ„o: 01/02/2010 a 31/01/2011</p>
+<p class="periodo">Per√≠odo do Contrato de Loca√ß√£o: 01/02/2010 a 31/01/2011</p>
 
 @empy.stopDiverting()
 
-<h1>RECIBO DE ALUGUEL DE IM”VEL</h1>
+<h1>RECIBO DE ALUGUEL DE IM√ìVEL</h1>
 
 @empy.replayDiversion("EDINEIA")
 <hr />
 
-<h1>AVISO DE ALUGUEL DE IM”VEL</h1>
+<h1>AVISO DE ALUGUEL DE IM√ìVEL</h1>
 
 @empy.replayDiversion("EDINEIA")
 <span class="pbreak"></span>
@@ -214,43 +214,43 @@ Centro - Ibi˙na - SP
     <tr> <td> Valor...R\$ </td>                        <td> 150,00 </td> </tr>
     <tr> <td> - Desconto...R\$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (10,00%)...R\$ </td>               <td>  32,10 </td> </tr>
-    <tr> <td> + ¡gua (10,00%)...R\$ </td>              <td>   5,10 </td> </tr>
+    <tr> <td> + √Ågua (10,00%)...R\$ </td>              <td>   5,10 </td> </tr>
     <tr> <td> + IPTU 2010 @iptu </td>                 <td>   8,46 </td> </tr>
-    <tr> <td> LÌquido...R\$ </td>                      <td> 195,66 </td> </tr>
+    <tr> <td> L√≠quido...R\$ </td>                      <td> 195,66 </td> </tr>
 </table>
 
-<p class="principal"> Recebi de ELIZEU MARCICANO, estabelecido ‡ Av. Ver.
-    Benedito de Campos, n.∞ 156, Ibi˙na, SP, a import‚ncia lÌquida de R\$ 195,66
+<p class="principal"> Recebi de ELIZEU MARCICANO, estabelecido √† Av. Ver.
+    Benedito de Campos, n.¬∞ 156, Ibi√∫na, SP, a import√¢ncia l√≠quida de R\$ 195,66
     (cento e noventa e cinco reais e sesssenta e seis centavos) referente ao aluguel
-    mensal de uma sala n.∫ 4 no 2.∫ pavimento do imÛvel no endereÁo acima,
-    vencido em @vcto, cabendo 33,33% da referida import‚ncia lÌquida a cada
+    mensal de uma sala n.¬∫ 4 no 2.¬∫ pavimento do im√≥vel no endere√ßo acima,
+    vencido em @vcto, cabendo 33,33% da referida import√¢ncia l√≠quida a cada
     locador.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
-<p class="data">Ibi˙na, @pgto.</p>
+<p class="data">Ibi√∫na, @pgto.</p>
 
 <p class="assinatura">
 ___________________________________ <br />
-JOS… A. MARCICANO E OUTROS
+JOS√â A. MARCICANO E OUTROS
 </p>
 
 <div class="fim">
-JOS… A. MARCICANO E OUTROS <br />
+JOS√â A. MARCICANO E OUTROS <br />
 Avenida Vereador Benedito de Campos, 156 <br />
-Centro - Ibi˙na - SP
+Centro - Ibi√∫na - SP
 </div>
 
-<p class="periodo">PerÌodo do Contrato de LocaÁ„o: 01/10/2010 a 30/09/2011</p>
+<p class="periodo">Per√≠odo do Contrato de Loca√ß√£o: 01/10/2010 a 30/09/2011</p>
 
 @empy.stopDiverting()
 
-<h1>RECIBO DE ALUGUEL DE IM”VEL</h1>
+<h1>RECIBO DE ALUGUEL DE IM√ìVEL</h1>
 
 @empy.replayDiversion("ELIZEU")
 <hr />
 
-<h1>AVISO DE ALUGUEL DE IM”VEL</h1>
+<h1>AVISO DE ALUGUEL DE IM√ìVEL</h1>
 
 @empy.replayDiversion("ELIZEU")
 <span class="pbreak"></span>
@@ -271,44 +271,44 @@ Centro - Ibi˙na - SP
     <tr> <td> Valor...R\$ </td>                        <td> 915,06 </td> </tr>
     <tr> <td> - Desconto...R\$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R\$ </td>                <td>   0,00 </td> </tr>
-    <tr> <td> + ¡gua (0,00%)...R\$ </td>               <td>   0,00 </td> </tr>
+    <tr> <td> + √Ågua (0,00%)...R\$ </td>               <td>   0,00 </td> </tr>
     <tr> <td> + IPTU 2010 @iptu </td>                 <td>  30,60 </td> </tr>
-    <tr> <td> LÌquido...R\$ </td>                      <td> 945,66 </td> </tr>
+    <tr> <td> L√≠quido...R\$ </td>                      <td> 945,66 </td> </tr>
 </table>
 
-<p class="principal"> Recebi de LÕDIA MEIRE BARRETO LOPES MADEIRAS - ME,
-    inscrita no C.N.P.J. sob o n.∫ 07.333.536/0001-78, estabelecida ‡ Av. Ver.
-    Benedito de Campos, n.∞ 156, Ibi˙na, SP, a import‚ncia lÌquida de R\$ 945,66
+<p class="principal"> Recebi de L√çDIA MEIRE BARRETO LOPES MADEIRAS - ME,
+    inscrita no C.N.P.J. sob o n.¬∫ 07.333.536/0001-78, estabelecida √† Av. Ver.
+    Benedito de Campos, n.¬∞ 156, Ibi√∫na, SP, a import√¢ncia l√≠quida de R\$ 945,66
     (novecentos e quarenta e cinco reais e sessenta e seis centavos) referente
-    ao aluguel mensal de um sal„o comercial no 1.∫ pavimento do imÛvel no
-    endereÁo acima, vencido em @lidia_vcto, cabendo 33,33% da referida
-    import‚ncia lÌquida a cada locador.</p>
+    ao aluguel mensal de um sal√£o comercial no 1.¬∫ pavimento do im√≥vel no
+    endere√ßo acima, vencido em @lidia_vcto, cabendo 33,33% da referida
+    import√¢ncia l√≠quida a cada locador.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
-<p class="data">Ibi˙na, 20 de @mes_pgto.</p>
+<p class="data">Ibi√∫na, 20 de @mes_pgto.</p>
 
 <p class="assinatura">
 ___________________________________ <br />
-JOS… A. MARCICANO E OUTROS
+JOS√â A. MARCICANO E OUTROS
 </p>
 
 <div class="fim">
-JOS… A. MARCICANO E OUTROS <br />
+JOS√â A. MARCICANO E OUTROS <br />
 Avenida Vereador Benedito de Campos, 156 <br />
-Centro - Ibi˙na - SP
+Centro - Ibi√∫na - SP
 </div>
 
-<p class="periodo">Vcto no 20.∞ dia do 3.∫ mÍs subseq¸ente - PerÌodo da LocaÁ„o: 01/04/2010 a 31/03/2011</p>
+<p class="periodo">Vcto no 20.¬∞ dia do 3.¬∫ m√™s subseq√ºente - Per√≠odo da Loca√ß√£o: 01/04/2010 a 31/03/2011</p>
 
 @empy.stopDiverting()
 
-<h1>RECIBO DE ALUGUEL DE IM”VEL</h1>
+<h1>RECIBO DE ALUGUEL DE IM√ìVEL</h1>
 
 @empy.replayDiversion("LIDIA1")
 <hr />
 
-<h1>AVISO DE ALUGUEL DE IM”VEL</h1>
+<h1>AVISO DE ALUGUEL DE IM√ìVEL</h1>
 
 @empy.replayDiversion("LIDIA1")
 <span class="pbreak"></span>
@@ -326,43 +326,43 @@ Centro - Ibi˙na - SP
     <tr> <td> Valor...R\$ </td>                        <td> 492,14 </td> </tr>
     <tr> <td> - Desconto...R\$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R\$ </td>                <td>   0,00 </td> </tr>
-    <tr> <td> + ¡gua (0,00%)...R\$ </td>               <td>   0,00 </td> </tr>
+    <tr> <td> + √Ågua (0,00%)...R\$ </td>               <td>   0,00 </td> </tr>
     <tr> <td> + IPTU 2010 @iptu </td>                 <td>  30,10 </td> </tr>
-    <tr> <td> LÌquido...R\$ </td>                      <td> 522,24 </td> </tr>
+    <tr> <td> L√≠quido...R\$ </td>                      <td> 522,24 </td> </tr>
 </table>
 
-<p class="principal"> Recebi de LÕDIA MEIRE BARRETO LOPES MADEIRAS - ME,
-    inscrita no C.N.P.J. sob o n.∫ 07.333.536/0001-78, estabelecida ‡ Av. Ver.
-    Benedito de Campos, n.∞ 156, Ibi˙na, SP, a import‚ncia lÌquida de R\$ 522,24
+<p class="principal"> Recebi de L√çDIA MEIRE BARRETO LOPES MADEIRAS - ME,
+    inscrita no C.N.P.J. sob o n.¬∫ 07.333.536/0001-78, estabelecida √† Av. Ver.
+    Benedito de Campos, n.¬∞ 156, Ibi√∫na, SP, a import√¢ncia l√≠quida de R\$ 522,24
     (quinhentos e vinte e dois reais e vinte e quatro centavos) referente ao
-    aluguel mensal de um sal„o comercial n.∞ 156-B no 1.∫ pavimento do imÛvel
-    no endereÁo acima, vencido em @vcto, cabendo 33,33% da referida import‚ncia
-    lÌquida a cada locador.</p>
+    aluguel mensal de um sal√£o comercial n.¬∞ 156-B no 1.¬∫ pavimento do im√≥vel
+    no endere√ßo acima, vencido em @vcto, cabendo 33,33% da referida import√¢ncia
+    l√≠quida a cada locador.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
-<p class="data">Ibi˙na, 10 de @mes_pgto.</p>
+<p class="data">Ibi√∫na, 10 de @mes_pgto.</p>
 
 <p class="assinatura">
 ___________________________________ <br />
-JOS… A. MARCICANO E OUTROS
+JOS√â A. MARCICANO E OUTROS
 </p>
 
 <div class="fim">
-JOS… A. MARCICANO E OUTROS <br />
-Avenida Vereador Benedito de Campos, 156 - Centro - Ibi˙na - SP
+JOS√â A. MARCICANO E OUTROS <br />
+Avenida Vereador Benedito de Campos, 156 - Centro - Ibi√∫na - SP
 </div>
 
-<p class="periodo">PerÌodo do Contrato de LocaÁ„o: 01/07/2010 a 30/06/2011</p>
+<p class="periodo">Per√≠odo do Contrato de Loca√ß√£o: 01/07/2010 a 30/06/2011</p>
 
 @empy.stopDiverting()
 
-<h1>RECIBO DE ALUGUEL DE IM”VEL</h1>
+<h1>RECIBO DE ALUGUEL DE IM√ìVEL</h1>
 
 @empy.replayDiversion("LIDIA2")
 <hr />
 
-<h1>AVISO DE ALUGUEL DE IM”VEL</h1>
+<h1>AVISO DE ALUGUEL DE IM√ìVEL</h1>
 
 @empy.replayDiversion("LIDIA2")
 <span class="pbreak"></span>
@@ -382,43 +382,43 @@ Avenida Vereador Benedito de Campos, 156 - Centro - Ibi˙na - SP
     <tr> <td> Valor...R\$ </td>                        <td> 177,78 </td> </tr>
     <tr> <td> - Desconto...R\$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (0,00%)...R\$ </td>                <td>   0,00 </td> </tr>
-    <tr> <td> + ¡gua (0,00%)...R\$ </td>               <td>   0,00 </td> </tr>
-    <tr> <td> + CondomÌnio...R\$ </td>                 <td>  15,00 </td> </tr>
+    <tr> <td> + √Ågua (0,00%)...R\$ </td>               <td>   0,00 </td> </tr>
+    <tr> <td> + Condom√≠nio...R\$ </td>                 <td>  15,00 </td> </tr>
     <tr> <td> + IPTU 2010 @iptu </td>                 <td>   7,95 </td> </tr>
-    <tr> <td> LÌquido...R\$ </td>                      <td> 200,73 </td> </tr>
+    <tr> <td> L√≠quido...R\$ </td>                      <td> 200,73 </td> </tr>
 </table>
 
-<p class="principal"> Recebi de MOVETAKER COMUNICA«√O LTDA., inscrita no
-C.N.P.J. sob o n.∞ 03.251.978/0001-14, estabelecida ‡ Av. Ver. Benedito de
-Campos, n.∞ 156, Ibi˙na, SP, a import‚ncia lÌquida de R\$ 200,73 (duzentos
-reais e setenta e trÍs centavos) referente ao aluguel mensal de uma sala
-n.∫ 3 no 3.∫ pavimento do imÛvel no endereÁo acima, vencido em @vcto, cabendo
-33,33% da referida import‚ncia lÌquida a cada locador.</p>
+<p class="principal"> Recebi de MOVETAKER COMUNICA√á√ÉO LTDA., inscrita no
+C.N.P.J. sob o n.¬∞ 03.251.978/0001-14, estabelecida √† Av. Ver. Benedito de
+Campos, n.¬∞ 156, Ibi√∫na, SP, a import√¢ncia l√≠quida de R\$ 200,73 (duzentos
+reais e setenta e tr√™s centavos) referente ao aluguel mensal de uma sala
+n.¬∫ 3 no 3.¬∫ pavimento do im√≥vel no endere√ßo acima, vencido em @vcto, cabendo
+33,33% da referida import√¢ncia l√≠quida a cada locador.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
-<p class="data">Ibi˙na, 10 de @mes_pgto.</p>
+<p class="data">Ibi√∫na, 10 de @mes_pgto.</p>
 
 <p class="assinatura">
 ___________________________________ <br />
-JOS… A. MARCICANO E OUTROS
+JOS√â A. MARCICANO E OUTROS
 </p>
 
 <div class="fim">
-JOS… A. MARCICANO E OUTROS <br />
-Avenida Vereador Benedito de Campos, 156 - Centro - Ibi˙na - SP
+JOS√â A. MARCICANO E OUTROS <br />
+Avenida Vereador Benedito de Campos, 156 - Centro - Ibi√∫na - SP
 </div>
 
-<p class="periodo">PerÌodo do Contrato de LocaÁ„o: 10/10/2010 a 09/10/2011</p>
+<p class="periodo">Per√≠odo do Contrato de Loca√ß√£o: 10/10/2010 a 09/10/2011</p>
 
 @empy.stopDiverting()
 
-<h1>RECIBO DE ALUGUEL DE IM”VEL</h1>
+<h1>RECIBO DE ALUGUEL DE IM√ìVEL</h1>
 
 @empy.replayDiversion("MOVETAKER")
 <hr />
 
-<h1>AVISO DE ALUGUEL DE IM”VEL</h1>
+<h1>AVISO DE ALUGUEL DE IM√ìVEL</h1>
 
 @empy.replayDiversion("MOVETAKER")
 <span class="pbreak"></span>
@@ -437,46 +437,46 @@ Avenida Vereador Benedito de Campos, 156 - Centro - Ibi˙na - SP
     </colgroup>
     <tr> <td> Valor...R\$ </td>                        <td> 733,42 </td> </tr>
     <tr> <td> - Desconto...R\$ </td>                   <td>  79,42 </td> </tr>
-    <tr> <td> = LÌquido...R\$ </td>                    <td> 654,00 </td> </tr>
+    <tr> <td> = L√≠quido...R\$ </td>                    <td> 654,00 </td> </tr>
     <tr> <td> + Luz (40,00%)...R\$ </td>               <td> 134,86 </td> </tr>
-    <tr> <td> + ¡gua (30,00%)...R\$ </td>              <td>  15,38 </td> </tr>
+    <tr> <td> + √Ågua (30,00%)...R\$ </td>              <td>  15,38 </td> </tr>
     <tr> <td> + IPTU 2010 @iptu </td>                 <td>  38,97 </td> </tr>
-    <tr> <td> LÌquido...R\$ </td>                      <td> 843,21 </td> </tr>
+    <tr> <td> L√≠quido...R\$ </td>                      <td> 843,21 </td> </tr>
 </table>
 
 <p class="principal" style="line-height: 1em"> Recebi de FISCONT - Ass. Cont. e
-    Auditoria Ltda. - ME, inscrita no C.N.P.J. sob o n.∞ 10.666.623/0001-51,
-    estabelecido ‡ Av. Ver.  Benedito de Campos, n.∞ 156, Ibi˙na, SP, a
-    import‚ncia lÌquida de R\$ 843,21 (oitocentos e quarenta e trÍs reais 
-    e vinte e um centavos), referente ao aluguel mensal de trÍs salas, n.∫s
-    1, 2 e 3, no 2.∫ pavimento do imÛvel no endereÁo acima, vencido em @vcto,
-    cabendo 33,33% da referida import‚ncia lÌquida a cada locador.</p>
+    Auditoria Ltda. - ME, inscrita no C.N.P.J. sob o n.¬∞ 10.666.623/0001-51,
+    estabelecido √† Av. Ver.  Benedito de Campos, n.¬∞ 156, Ibi√∫na, SP, a
+    import√¢ncia l√≠quida de R\$ 843,21 (oitocentos e quarenta e tr√™s reais 
+    e vinte e um centavos), referente ao aluguel mensal de tr√™s salas, n.¬∫s
+    1, 2 e 3, no 2.¬∫ pavimento do im√≥vel no endere√ßo acima, vencido em @vcto,
+    cabendo 33,33% da referida import√¢ncia l√≠quida a cada locador.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
-<p class="data">Ibi˙na, @pgto.</p>
+<p class="data">Ibi√∫na, @pgto.</p>
 
 <p class="assinatura">
 ___________________________________ <br />
-JOS… A. MARCICANO E OUTROS
+JOS√â A. MARCICANO E OUTROS
 </p>
 
 <div class="fim">
-JOS… A. MARCICANO E OUTROS <br />
+JOS√â A. MARCICANO E OUTROS <br />
 Avenida Vereador Benedito de Campos, 156 <br />
-Centro - Ibi˙na - SP
+Centro - Ibi√∫na - SP
 </div>
 
-<p class="periodo">PerÌodo do Contrato de LocaÁ„o: 13/02/2010 a 12/02/2011</p>
+<p class="periodo">Per√≠odo do Contrato de Loca√ß√£o: 13/02/2010 a 12/02/2011</p>
 
 @empy.stopDiverting()
 
-<h1>RECIBO DE ALUGUEL DE IM”VEL</h1>
+<h1>RECIBO DE ALUGUEL DE IM√ìVEL</h1>
 
 @empy.replayDiversion("FISCONT")
 <hr />
 
-<h1>AVISO DE ALUGUEL DE IM”VEL</h1>
+<h1>AVISO DE ALUGUEL DE IM√ìVEL</h1>
 
 @empy.replayDiversion("FISCONT")
 <span class="pbreak"></span>
@@ -496,44 +496,44 @@ Centro - Ibi˙na - SP
     <tr> <td> Valor...R\$ </td>                        <td> 180,00 </td> </tr>
     <tr> <td> - Desconto...R\$ </td>                   <td>   0,00 </td> </tr>
     <tr> <td> + Luz (40,00%)...R\$ </td>               <td>   3,67 </td> </tr>
-    <tr> <td> + ¡gua (30,00%)...R\$ </td>              <td>   9,85 </td> </tr>
+    <tr> <td> + √Ågua (30,00%)...R\$ </td>              <td>   9,85 </td> </tr>
     <tr> <td> + IPTU 2010 @iptu </td>                 <td>   8,46 </td> </tr>
-    <tr> <td> LÌquido...R\$ </td>                      <td> 201,98 </td> </tr>
+    <tr> <td> L√≠quido...R\$ </td>                      <td> 201,98 </td> </tr>
 </table>
 
 <p class="principal" style="line-height: 1em"> Recebi de CONSTRUTORA OLIVEIRA E
-    PRESTA«√O DE SERVI«OS LTDA., inscrita no C.N.P.J. sob o n.∞
-    10.765.209/0001-08, estabelecido ‡ Av. Ver.  Benedito de Campos, n.∞ 156,
-    Ibi˙na, SP, a import‚ncia lÌquida de R\$ 201,98 (duzentos e um reais e
-    noventa e oito centavos), referente ao aluguel mensal de uma sala n.∫ 5 no
-    3.∫ pavimento do imÛvel no endereÁo acima, vencido em @vcto, cabendo 33,33%
-    da referida import‚ncia lÌquida a cada locador.</p>
+    PRESTA√á√ÉO DE SERVI√áOS LTDA., inscrita no C.N.P.J. sob o n.¬∞
+    10.765.209/0001-08, estabelecido √† Av. Ver.  Benedito de Campos, n.¬∞ 156,
+    Ibi√∫na, SP, a import√¢ncia l√≠quida de R\$ 201,98 (duzentos e um reais e
+    noventa e oito centavos), referente ao aluguel mensal de uma sala n.¬∫ 5 no
+    3.¬∫ pavimento do im√≥vel no endere√ßo acima, vencido em @vcto, cabendo 33,33%
+    da referida import√¢ncia l√≠quida a cada locador.</p>
 
 <p>Para maior clareza, firmo o presente.</p>
 
-<p class="data">Ibi˙na, @pgto.</p>
+<p class="data">Ibi√∫na, @pgto.</p>
 
 <p class="assinatura">
 ___________________________________ <br />
-JOS… A. MARCICANO E OUTROS
+JOS√â A. MARCICANO E OUTROS
 </p>
 
 <div class="fim">
-JOS… A. MARCICANO E OUTROS <br />
+JOS√â A. MARCICANO E OUTROS <br />
 Avenida Vereador Benedito de Campos, 156 <br />
-Centro - Ibi˙na - SP
+Centro - Ibi√∫na - SP
 </div>
 
-<p class="periodo">PerÌodo do Contrato de LocaÁ„o: 15/07/2010 a 14/07/2011</p>
+<p class="periodo">Per√≠odo do Contrato de Loca√ß√£o: 15/07/2010 a 14/07/2011</p>
 
 @empy.stopDiverting()
 
-<h1>RECIBO DE ALUGUEL DE IM”VEL</h1>
+<h1>RECIBO DE ALUGUEL DE IM√ìVEL</h1>
 
 @empy.replayDiversion("OLIVEIRA")
 <hr />
 
-<h1>AVISO DE ALUGUEL DE IM”VEL</h1>
+<h1>AVISO DE ALUGUEL DE IM√ìVEL</h1>
 
 @empy.replayDiversion("OLIVEIRA")
 <span class="pbreak"></span>

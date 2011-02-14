@@ -1,15 +1,15 @@
 +============================================================================+
-|  L  B  M  -  ESCRIT”RIO DE SERVI«OS IBI⁄NA LTDA. - ME                      |
-|  Avenida Vereador Benedito de Campos, 156 - 1∫ Andar - Salas 5 e 6         |
-|  Centro - Ibi˙na - SP  -- CNPJ n∫ 05.296.042/0001-35 - I.M. n∫ 5.910       | 
+|  L  B  M  -  ESCRIT√ìRIO DE SERVI√áOS IBI√öNA LTDA. - ME                      |
+|  Avenida Vereador Benedito de Campos, 156 - 1¬∫ Andar - Salas 5 e 6         |
+|  Centro - Ibi√∫na - SP  -- CNPJ n¬∫ 05.296.042/0001-35 - I.M. n¬∫ 5.910       | 
 +============================================================+===============+
 | Nome: $nome                                              $ |     NFFS      |
-| EndereÁo: $endereco3                                     $ |   S…RIE "U"   |
+| Endere√ßo: $endereco3                                     $ |   S√âRIE "U"   |
 | $endereco4                                               $ |  No. $nffs$   |
 | CNPJ: $cnpj            $ - IE: $ie           $ - IM: $im $ |    1a. VIA    |
-| CondiÁıes: A VISTA             Data da Emiss„o: $emissao $ | DESTINAT¡RIO  |
+| Condi√ß√µes: A VISTA             Data da Emiss√£o: $emissao $ | DESTINAT√ÅRIO  |
 +======+======================================+==============+=+=============+
-| Qtd. | DescriÁ„o dos ServiÁos               | PreÁo Unit·rio | PreÁo Total |
+| Qtd. | Descri√ß√£o dos Servi√ßos               | Pre√ßo Unit√°rio | Pre√ßo Total |
 +------+--------------------------------------+----------------+-------------+
 | $q1$ | $d1                                $ |    $v1       $ | $v1       $ |
 | $q2$ | $d2                                $ |    $v2       $ | $v2       $ |
@@ -17,14 +17,14 @@
 | $q4$ | $d4                                $ |    $v4       $ | $v4       $ |
 +------+---------------------------------+----+----------------+-------------+
 |                                        |      Total da Nota: | $total    $ |
-| N√O VALE COMO RECIBO. N„o È sujeito ao +---------------------+-------------+
+| N√ÉO VALE COMO RECIBO. N√£o √© sujeito ao +---------------------+-------------+
 | ICMS, cfe Dec. Lei 406 de 31/12/1968 e |                                   |
-| Lei 834 de 08/09/1969.                 |   Vencimento: $vcto    $. ApÛs,   |
+| Lei 834 de 08/09/1969.                 |   Vencimento: $vcto    $. Ap√≥s,   |
 |                                        |   cobrar encargos financeiros.    |
 |                                        |                                   |
 +==========+=============================+===================================+
-|          | Recebi(emos) de LBM - ESCRIT”RIO DE SERVI«OS IBI⁄NA LTDA. -ME   |
-| NFFS No. | os serviÁos constantes desta Nota Fiscal de Fatura de ServiÁos. |
+|          | Recebi(emos) de LBM - ESCRIT√ìRIO DE SERVI√áOS IBI√öNA LTDA. -ME   |
+| NFFS No. | os servi√ßos constantes desta Nota Fiscal de Fatura de Servi√ßos. |
 |          |                                                                 |
 |  $nffs$  |                                                                 |
 |          | Data: ___/___/______  Carimbo e Assinatura: ___________________ |
@@ -32,17 +32,17 @@
 
 
 +============================================================================+
-|  L  B  M  -  ESCRIT”RIO DE SERVI«OS IBI⁄NA LTDA. - ME                      |
-|  Avenida Vereador Benedito de Campos, 156 - 1∫ Andar - Salas 5 e 6         |
-|  Centro - Ibi˙na - SP  -- CNPJ n∫ 05.296.042/0001-35 - I.M. n∫ 5.910       | 
+|  L  B  M  -  ESCRIT√ìRIO DE SERVI√áOS IBI√öNA LTDA. - ME                      |
+|  Avenida Vereador Benedito de Campos, 156 - 1¬∫ Andar - Salas 5 e 6         |
+|  Centro - Ibi√∫na - SP  -- CNPJ n¬∫ 05.296.042/0001-35 - I.M. n¬∫ 5.910       | 
 +============================================================+===============+
 | Nome: $nome                                              $ |     NFFS      |
-| EndereÁo: $endereco3                                     $ |   S…RIE "U"   |
+| Endere√ßo: $endereco3                                     $ |   S√âRIE "U"   |
 | $endereco4                                               $ |  No. $nffs$   |
 | CNPJ: $cnpj            $ - IE: $ie           $ - IM: $im $ |    2a. VIA    |
-| CondiÁıes: A VISTA             Data da Emiss„o: $emissao $ | CONTABILIDADE |
+| Condi√ß√µes: A VISTA             Data da Emiss√£o: $emissao $ | CONTABILIDADE |
 +======+======================================+==============+=+=============+
-| Qtd. | DescriÁ„o dos ServiÁos               | PreÁo Unit·rio | PreÁo Total |
+| Qtd. | Descri√ß√£o dos Servi√ßos               | Pre√ßo Unit√°rio | Pre√ßo Total |
 +------+--------------------------------------+----------------+-------------+
 | $q1$ | $d1                                $ |    $v1       $ | $v1       $ |
 | $q2$ | $d2                                $ |    $v2       $ | $v2       $ |
@@ -50,14 +50,14 @@
 | $q4$ | $d4                                $ |    $v4       $ | $v4       $ |
 +------+---------------------------------+----+----------------+-------------+
 |                                        |      Total da Nota: | $total    $ |
-| N√O VALE COMO RECIBO. N„o È sujeito ao +---------------------+-------------+
+| N√ÉO VALE COMO RECIBO. N√£o √© sujeito ao +---------------------+-------------+
 | ICMS, cfe Dec. Lei 406 de 31/12/1968 e |                                   |
-| Lei 834 de 08/09/1969.                 |   Vencimento: $vcto    $. ApÛs,   |
+| Lei 834 de 08/09/1969.                 |   Vencimento: $vcto    $. Ap√≥s,   |
 |                                        |   cobrar encargos financeiros.    |
 |                                        |                                   |
 +==========+=============================+===================================+
-|          | Recebi(emos) de LBM - ESCRIT”RIO DE SERVI«OS IBI⁄NA LTDA. -ME   |
-| NFFS No. | os serviÁos constantes desta Nota Fiscal de Fatura de ServiÁos. |
+|          | Recebi(emos) de LBM - ESCRIT√ìRIO DE SERVI√áOS IBI√öNA LTDA. -ME   |
+| NFFS No. | os servi√ßos constantes desta Nota Fiscal de Fatura de Servi√ßos. |
 |          |                                                                 |
 |  $nffs$  |                                                                 |
 |          | Data: ___/___/______  Carimbo e Assinatura: ___________________ |
@@ -65,17 +65,17 @@
 
 
 +============================================================================+
-|  L  B  M  -  ESCRIT”RIO DE SERVI«OS IBI⁄NA LTDA. - ME                      |
-|  Avenida Vereador Benedito de Campos, 156 - 1∫ Andar - Salas 5 e 6         |
-|  Centro - Ibi˙na - SP  -- CNPJ n∫ 05.296.042/0001-35 - I.M. n∫ 5.910       | 
+|  L  B  M  -  ESCRIT√ìRIO DE SERVI√áOS IBI√öNA LTDA. - ME                      |
+|  Avenida Vereador Benedito de Campos, 156 - 1¬∫ Andar - Salas 5 e 6         |
+|  Centro - Ibi√∫na - SP  -- CNPJ n¬∫ 05.296.042/0001-35 - I.M. n¬∫ 5.910       | 
 +============================================================+===============+
 | Nome: $nome                                              $ |     NFFS      |
-| EndereÁo: $endereco3                                     $ |   S…RIE "U"   |
+| Endere√ßo: $endereco3                                     $ |   S√âRIE "U"   |
 | $endereco4                                               $ |  No. $nffs$   |
 | CNPJ: $cnpj            $ - IE: $ie           $ - IM: $im $ |    3a. VIA    |
-| CondiÁıes: A VISTA             Data da Emiss„o: $emissao $ |      FIXA     |
+| Condi√ß√µes: A VISTA             Data da Emiss√£o: $emissao $ |      FIXA     |
 +======+======================================+==============+=+=============+
-| Qtd. | DescriÁ„o dos ServiÁos               | PreÁo Unit·rio | PreÁo Total |
+| Qtd. | Descri√ß√£o dos Servi√ßos               | Pre√ßo Unit√°rio | Pre√ßo Total |
 +------+--------------------------------------+----------------+-------------+
 | $q1$ | $d1                                $ |    $v1       $ | $v1       $ |
 | $q2$ | $d2                                $ |    $v2       $ | $v2       $ |
@@ -83,14 +83,14 @@
 | $q4$ | $d4                                $ |    $v4       $ | $v4       $ |
 +------+---------------------------------+----+----------------+-------------+
 |                                        |      Total da Nota: | $total    $ |
-| N√O VALE COMO RECIBO. N„o È sujeito ao +---------------------+-------------+
+| N√ÉO VALE COMO RECIBO. N√£o √© sujeito ao +---------------------+-------------+
 | ICMS, cfe Dec. Lei 406 de 31/12/1968 e |                                   |
-| Lei 834 de 08/09/1969.                 |   Vencimento: $vcto    $. ApÛs,   |
+| Lei 834 de 08/09/1969.                 |   Vencimento: $vcto    $. Ap√≥s,   |
 |                                        |   cobrar encargos financeiros.    |
 |                                        |                                   |
 +==========+=============================+===================================+
-|          | Recebi(emos) de LBM - ESCRIT”RIO DE SERVI«OS IBI⁄NA LTDA. -ME   |
-| NFFS No. | os serviÁos constantes desta Nota Fiscal de Fatura de ServiÁos. |
+|          | Recebi(emos) de LBM - ESCRIT√ìRIO DE SERVI√áOS IBI√öNA LTDA. -ME   |
+| NFFS No. | os servi√ßos constantes desta Nota Fiscal de Fatura de Servi√ßos. |
 |          |                                                                 |
 |  $nffs$  |                                                                 |
 |          | Data: ___/___/______  Carimbo e Assinatura: ___________________ |
@@ -98,34 +98,34 @@
 
 
 +============================================================================+
-|  L  B  M  -  ESCRIT”RIO DE SERVI«OS IBI⁄NA LTDA. - ME                      |
-|  Avenida Vereador Benedito de Campos, 156 - 1∫ Andar - Salas 5 e 6         |
-|  Centro - Ibi˙na - SP  -- CNPJ n∫ 05.296.042/0001-35 - I.M. n∫ 5.910       | 
+|  L  B  M  -  ESCRIT√ìRIO DE SERVI√áOS IBI√öNA LTDA. - ME                      |
+|  Avenida Vereador Benedito de Campos, 156 - 1¬∫ Andar - Salas 5 e 6         |
+|  Centro - Ibi√∫na - SP  -- CNPJ n¬∫ 05.296.042/0001-35 - I.M. n¬∫ 5.910       | 
 +============================================================+===============+
 | Nome: $nome                                              $ |               |
-| EndereÁo: $endereco3                                     $ | R E C I B O   |
+| Endere√ßo: $endereco3                                     $ | R E C I B O   |
 | $endereco4                                               $ | Vencimento:   |
 | CNPJ: $cnpj            $ - IE: $ie           $ - IM: $im $ | $vcto    $    |
-| CondiÁıes: A VISTA             Data da Emiss„o: $emissao $ |               |
+| Condi√ß√µes: A VISTA             Data da Emiss√£o: $emissao $ |               |
 +============================================================+===============+
 |                                                                            |
 |                                                    Valor...R\$ $total    $  |
-|                                                  LÌquido...R\$ $total    $  |
+|                                                  L√≠quido...R\$ $total    $  |
 |                                                                            |
 |                                                                            |
-|  Recebemos da firma acima qualificada o valor lÌquido de R\$ $total    $    |
+|  Recebemos da firma acima qualificada o valor l√≠quido de R\$ $total    $    |
 |  ($extenso                                                            $),  |
-|  referente ‡ nossa Nota Fiscal Fatura de ServiÁos no. $nffs$, emitida em   |
-|  $emissao $.  Por ser verdade firmamos o presente, dando quitaÁ„o do       |
+|  referente √† nossa Nota Fiscal Fatura de Servi√ßos no. $nffs$, emitida em   |
+|  $emissao $.  Por ser verdade firmamos o presente, dando quita√ß√£o do       |
 |  valor recebido.                                                           |
 |                                                                            |
 |                                                                            |
-|                                                   Ibi˙na, ___/___/______.  |
+|                                                   Ibi√∫na, ___/___/______.  |
 |                                                                            |
 |                                                                            |
 |                                                                            |
 |                                            ______________________________  |
-|  P A G A R   N O   V E N C I M E N T O               RESPONS¡VEL           |
+|  P A G A R   N O   V E N C I M E N T O               RESPONS√ÅVEL           |
 |                                                                            |
 +============================================================================+
 
