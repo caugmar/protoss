@@ -37,3 +37,13 @@
                                                           (range 1 (.getRowCount lancamentos)))))))]
     {:empresas empresas-lidas :lancamentos lancamentos-lidos}))
 
+(def dados (ler))
+(def empresas (:empresas dados))
+(def lancamentos (:lancamentos dados))
+(def modelos (sort (set (map :modelo lancamentos))))
+
+(defn empresas-por-modelo [modelo]
+  (sort (set (map :cliente 
+                  (filter (fn [l] (= (:modelo l) modelo)) 
+                          lancamentos)))))
+
