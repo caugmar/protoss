@@ -13,7 +13,9 @@
                                        (vec query) 
                                        (vec resultados))))
 
-(defn ler [] 
-  (println 
-    (sql-query "select * from documentos_de_cobranca where id = ?" "133")))
+(defn proximo-numero [modelo]
+  (let [query "select max(numero_da_nota)+1 from documentos_de_cobranca where modelo like ?"
+        resultados (sql-query query modelo)
+        numero (first (vals (first resultados)))]
+    numero))
 
