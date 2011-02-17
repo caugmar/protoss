@@ -47,3 +47,14 @@
                   (filter (fn [l] (= (:modelo l) modelo)) 
                           lancamentos)))))
 
+(defn empresa-por-codigo [codigo]
+  (first 
+    (filter (fn [e] (= (:cliente e) codigo)) 
+            empresas)))
+
+(defn gerar-documentos []
+  (doseq [modelo modelos 
+          codigo (empresas-por-modelo modelo)]
+    (let [empresa (empresa-por-codigo codigo)]
+      (println (str modelo " - " codigo " - " (:nome empresa))))))
+
