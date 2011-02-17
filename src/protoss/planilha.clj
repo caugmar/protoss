@@ -2,7 +2,8 @@
   (:import [org.jopendocument.dom.spreadsheet SpreadSheet]
            [org.jopendocument.dom OOUtils]
            [javax.swing.table TableModel DefaultTableModel]
-           [java.io File]))
+           [java.io File])
+  (:use protoss.banco))
 
 (defn criar []
   (let [data (to-array-2d [["janeiro", 1],
@@ -69,8 +70,11 @@
 (defn gerar-documentos []
   (doseq [modelo modelos 
           codigo (empresas-por-modelo modelo)]
-    (let [empresa (empresa-por-codigo codigo)]
-      (println (str modelo " - " codigo " - " (:nome empresa)))
+    (let [empresa (empresa-por-codigo codigo)
+          numero (proximo-numero modelo)
+          emissao (:emissao configuracoes)
+          vencimento (:vencimento configuracoes)]
+      (println (str modelo " - " codigo " - " (:nome empresa) " - " emissao " - " vencimento " - " numero))
       (doseq [lancamento (lancamentos-por-modelo-e-codigo modelo codigo)]
         (println (str " -> " lancamento))))))
 
