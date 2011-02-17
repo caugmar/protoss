@@ -52,9 +52,18 @@
     (filter (fn [e] (= (:cliente e) codigo)) 
             empresas)))
 
+(defn lancamentos-por-modelo-e-codigo [modelo codigo]
+  (sort-by (fn [l] (str (:descricao l)))
+    (filter (fn [l] (and (= (:modelo l) modelo)
+                         (= (:cliente l) codigo)))
+            lancamentos)))
+
 (defn gerar-documentos []
   (doseq [modelo modelos 
           codigo (empresas-por-modelo modelo)]
     (let [empresa (empresa-por-codigo codigo)]
-      (println (str modelo " - " codigo " - " (:nome empresa))))))
+      (println (str modelo " - " codigo " - " (:nome empresa)))
+      (doseq [lancamento (lancamentos-por-modelo-e-codigo modelo codigo)]
+              (println (str " -> " lancamento))))))
+              
 
