@@ -5,16 +5,6 @@
            [java.io File])
   (:use protoss.banco))
 
-(defn criar []
-  (let [data (to-array-2d [["janeiro", 1],
-                           ["fevereiro", 2],
-                           ["março", 3]])
-        colunas (to-array ["Mês", "Temperatura"])
-        modelo (DefaultTableModel. data colunas)     
-        arq (File. "temperatura.ods")]
-    (.saveAs (SpreadSheet/createEmpty modelo) arq)
-    (OOUtils/open arq)))
-
 (defn ler-linha [planilha linha campos] 
   (apply merge 
          (map (fn [i] {(keyword (.toLowerCase (.getValueAt planilha 0 i))) 
@@ -25,46 +15,38 @@
   {(keyword (.toLowerCase (.getValueAt planilha linha 0))) 
    (.getValueAt planilha linha 1)})
 
-(defn ler []
-  (let [arquivo (File. "dados.ods")
-        planilha (SpreadSheet/createFromFile arquivo)
-        empresas (.getTableModel (.getSheet planilha "Empresas") 0 0)
-        lancamentos (.getTableModel (.getSheet planilha "Lançamentos") 0 0)
-        configuracoes (.getTableModel (.getSheet planilha "Configurações") 0 0)
-        empresas-lidas (vec (sort-by :nome 
-                                     (remove (fn [registro] (= (:cliente registro) ""))
-                                             (map (fn [i] (ler-linha empresas i 15))
-                                                  (range 1 (.getRowCount empresas))))))
-        lancamentos-lidos (vec (sort-by (fn [c] [(:modelo c) (:cliente c) (:descricao c)])
-                                        (remove (fn [registro] (= (:qtd registro) 0))
-                                                (remove (fn [registro] (= (:cliente registro) ""))
-                                                        (map (fn [i] (ler-linha lancamentos i 5))
-                                                             (range 1 (.getRowCount lancamentos)))))))
-        configuracoes-lidas (apply merge (remove (fn [registro] (= (first (keys registro)) ""))
-                                                 (map (fn [i] (ler-configuracao configuracoes i))
-                                                      (range 1 (.getRowCount configuracoes)))))]
-    {:empresas empresas-lidas :lancamentos lancamentos-lidos :configuracoes configuracoes-lidas}))
+(let [arquivo (File. "dados.ods")
+      planilha (SpreadSheet/createFromFile arquivo)
+      empresas-lidas (.getTableModel (.getSheet planilha "Empresas") 0 0)
+      lancamentos-lidos (.getTableModel (.getSheet planilha "Lançamentos") 0 0)
+      configuracoes-lidas (.getTableModel (.getSheet planilha "Configurações") 0 0)]
+  (def empresas (vec (sort-by :nome 
+                              (remove #(= (:cliente %) "")
+                                      (map #(ler-linha empresas-lidas % 15)
+                                           (range 1 (.getRowCount empresas-lidas)))))))
+  (def lancamentos (vec (sort-by (fn [c] [(:modelo c) (:cliente c) (:descricao c)])
+                                 (remove #(or (= (:qtd %) 0) (= (:cliente %) ""))
+                                         (map #(ler-linha lancamentos-lidos % 5)
+                                              (range 1 (.getRowCount lancamentos-lidos)))))))
+  (def configuracoes (apply merge (remove #(= (first (keys %)) "")
+                                          (map #(ler-configuracao configuracoes-lidas %)
+                                               (range 1 (.getRowCount configuracoes-lidas)))))))
 
-(def dados (ler))
-(def empresas (:empresas dados))
-(def lancamentos (:lancamentos dados))
-(def configuracoes (:configuracoes dados))
 (def modelos (sort (set (map :modelo lancamentos))))
 
 (defn empresas-por-modelo [modelo]
   (sort (set (map :cliente 
-                  (filter (fn [l] (= (:modelo l) modelo)) 
+                  (filter #(= (:modelo %) modelo)
                           lancamentos)))))
 
-(defn empresa-por-codigo [codigo]
-  (first 
-    (filter (fn [e] (= (:cliente e) codigo)) 
-            empresas)))
+(defn empresa-por-codigo [codigo] 
+  (first (filter #(= (:cliente %) codigo) 
+                 empresas)))
 
 (defn lancamentos-por-modelo-e-codigo [modelo codigo]
-  (sort-by (fn [l] (str (:descricao l)))
-           (filter (fn [l] (and (= (:modelo l) modelo)
-                                (= (:cliente l) codigo)))
+  (sort-by #(str (:descricao %))
+           (filter #(and (= (:modelo %) modelo)
+                         (= (:cliente %) codigo))
                    lancamentos)))
 
 (defn gerar-documentos []
@@ -77,5 +59,4 @@
       (println (str modelo " - " codigo " - " (:nome empresa) " - " emissao " - " vencimento " - " numero))
       (doseq [lancamento (lancamentos-por-modelo-e-codigo modelo codigo)]
         (println (str " -> " lancamento))))))
-
 
