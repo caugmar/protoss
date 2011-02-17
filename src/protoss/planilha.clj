@@ -20,27 +20,34 @@
                        (.getValueAt planilha linha i)})
               (range campos))))
 
+(defn ler-configuracao [planilha linha] 
+  {(keyword (.toLowerCase (.getValueAt planilha linha 0))) 
+   (.getValueAt planilha linha 1)})
+
 (defn ler []
   (let [arquivo (File. "dados.ods")
         planilha (SpreadSheet/createFromFile arquivo)
-        empresas (.getTableModel (.getSheet planilha 0) 0 0)
-        lancamentos (.getTableModel (.getSheet planilha 1) 0 0)
-        empresas-lidas (vec 
-                         (sort-by :nome 
-                                  (remove (fn [registro] (= (:cliente registro) ""))
-                                          (map (fn [i] (ler-linha empresas i 15))
-                                               (range 1 (.getRowCount empresas))))))
-        lancamentos-lidos (vec 
-                            (sort-by (fn [c] [(:modelo c) (:cliente c) (:descricao c)])
-                                     (remove (fn [registro] (= (:qtd registro) 0))
-                                             (remove (fn [registro] (= (:cliente registro) ""))
-                                                     (map (fn [i] (ler-linha lancamentos i 5))
-                                                          (range 1 (.getRowCount lancamentos)))))))]
-    {:empresas empresas-lidas :lancamentos lancamentos-lidos}))
+        empresas (.getTableModel (.getSheet planilha "Empresas") 0 0)
+        lancamentos (.getTableModel (.getSheet planilha "Lançamentos") 0 0)
+        configuracoes (.getTableModel (.getSheet planilha "Configurações") 0 0)
+        empresas-lidas (vec (sort-by :nome 
+                                     (remove (fn [registro] (= (:cliente registro) ""))
+                                             (map (fn [i] (ler-linha empresas i 15))
+                                                  (range 1 (.getRowCount empresas))))))
+        lancamentos-lidos (vec (sort-by (fn [c] [(:modelo c) (:cliente c) (:descricao c)])
+                                        (remove (fn [registro] (= (:qtd registro) 0))
+                                                (remove (fn [registro] (= (:cliente registro) ""))
+                                                        (map (fn [i] (ler-linha lancamentos i 5))
+                                                             (range 1 (.getRowCount lancamentos)))))))
+        configuracoes-lidas (apply merge (remove (fn [registro] (= (first (keys registro)) ""))
+                                                 (map (fn [i] (ler-configuracao configuracoes i))
+                                                      (range 1 (.getRowCount configuracoes)))))]
+    {:empresas empresas-lidas :lancamentos lancamentos-lidos :configuracoes configuracoes-lidas}))
 
 (def dados (ler))
 (def empresas (:empresas dados))
 (def lancamentos (:lancamentos dados))
+(def configuracoes (:configuracoes dados))
 (def modelos (sort (set (map :modelo lancamentos))))
 
 (defn empresas-por-modelo [modelo]
