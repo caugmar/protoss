@@ -1,7 +1,7 @@
 (ns protoss.planilha
   (:import [org.jopendocument.dom.spreadsheet SpreadSheet]
            [java.io File])
-  (:use protoss.banco))
+  (:use [protoss.banco :only [novo-documento conectar-ao-banco]]))
 
 (defn ler-linha [planilha linha campos] 
   (apply merge 
@@ -57,7 +57,6 @@
     (let [empresa (empresa-por-codigo codigo)
           emissao (:emissao configuracoes)
           vencimento (:vencimento configuracoes)]
-      (println (str modelo " - " codigo " - " (:nome empresa) " - " emissao " - " vencimento))
-      (doseq [lancamento (lancamentos-por-modelo-e-codigo modelo codigo)]
-        (println (str " -> " lancamento))))))
+      (conectar-ao-banco 
+        (novo-documento modelo emissao vencimento empresa lancamentos)))))
 
