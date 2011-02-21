@@ -56,7 +56,8 @@
           codigo (empresas-por-modelo modelo)]
     (let [empresa (empresa-por-codigo codigo)
           emissao (:emissao configuracoes)
-          vencimento (:vencimento configuracoes)]
+          vencimento (:vencimento configuracoes)
+          itens-do-documento (lancamentos-por-modelo-e-codigo modelo codigo)]
       (conectar-ao-banco 
-        (novo-documento modelo emissao vencimento empresa lancamentos)))))
+        (novo-documento modelo emissao vencimento empresa itens-do-documento)))))
 
