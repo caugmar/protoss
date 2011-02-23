@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+-main	core.clj	/^(defn -main [& args]$/;"	f
+aviso	modelos.clj	/^(def aviso (.getInstanceOf modelos "aviso"))$/;"	f
+conectar-ao-banco	banco.clj	/^(defmacro conectar-ao-banco [& body]$/;"	f
+configurar-opcoes	core.clj	/^(defn configurar-opcoes []$/;"	f
+db	banco.clj	/^(def db {:classname "com.mysql.jdbc.Driver"$/;"	f
+dezena	extensos.clj	/^(defn dezena [numero]$/;"	f
+dezenas	extensos.clj	/^(def dezenas ["vinte" "trinta" "quarenta" "cinqüenta" "sessenta" "setenta" "oitenta" "noventa"])$/;"	f
+digitos	extensos.clj	/^(def digitos ["" "um" "dois" "três" "quatro" "cinco" "seis" "sete" "oito" "nove"])$/;"	f
+dispatcher	core.clj	/^(defn dispatcher [args opcoes]$/;"	f
+empresa-por-codigo	planilha.clj	/^(defn empresa-por-codigo [codigo] $/;"	f
+empresas-por-modelo	planilha.clj	/^(defn empresas-por-modelo [modelo]$/;"	f
+excessoes	extensos.clj	/^(def excessoes ["dez" "onze" "doze" "treze" "quatorze" "quinze" "dezesseis" "dezessete" "dezoito" "dezenove"])$/;"	f
+extrair-configuracoes	planilha.clj	/^(defn extrair-configuracoes [table-model] $/;"	f
+extrair-tabela	planilha.clj	/^(defn extrair-tabela [table-model field-count remove-function sort-function] $/;"	f
+gerar-documentos	planilha.clj	/^(defn gerar-documentos []$/;"	f
+id-atual	banco.clj	/^(defn id-atual [modelo]$/;"	f
+lancamentos-por-modelo-e-codigo	planilha.clj	/^(defn lancamentos-por-modelo-e-codigo [modelo codigo]$/;"	f
+lbm	modelos.clj	/^(def lbm (.getInstanceOf modelos "lbm"))$/;"	f
+ler-configuracao	planilha.clj	/^(defn ler-configuracao [planilha linha] $/;"	f
+ler-linha	planilha.clj	/^(defn ler-linha [planilha linha campos] $/;"	f
+minister	modelos.clj	/^(def minister (.getInstanceOf modelos "minister"))$/;"	f
+modelos	modelos.clj	/^(def modelos (StringTemplateGroup. "templates" ".\/templates\/"))$/;"	f
+modelos	planilha.clj	/^(def modelos (sort (set (map :modelo lancamentos))))$/;"	f
+mostrar-ajuda	core.clj	/^(defn mostrar-ajuda [opcoes] $/;"	f
+novo-documento	banco.clj	/^(defn novo-documento [modelo emissao vencimento empresa lancamentos]$/;"	f
+obter	planilha.clj	/^(defn obter [planilha nome]$/;"	f
+proximo-numero	banco.clj	/^(defn proximo-numero [modelo]$/;"	f
+recibos-aluguel	modelos.clj	/^(def recibos-aluguel (.getInstanceOf modelos "recibos-aluguel"))$/;"	f
+recibos-escritorio	modelos.clj	/^(def recibos-escritorio (.getInstanceOf modelos "recibos-escritorio"))$/;"	f
+se-opcao	core.clj	/^(defmacro se-opcao [cmdline opt & body]$/;"	f
+se-opcao-com-arg	core.clj	/^(defmacro se-opcao-com-arg [cmdline opt arg & body]$/;"	f
+sql-query	banco.clj	/^(defn sql-query [& query] $/;"	f
