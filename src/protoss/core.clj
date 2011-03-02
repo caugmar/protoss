@@ -1,5 +1,6 @@
 (ns protoss.core
-  (:import [org.apache.commons.cli Options GnuParser HelpFormatter]))
+  (:import [org.apache.commons.cli Options GnuParser HelpFormatter])
+  (:gen-class))
 
 (defmacro se-opcao [cmdline opt & body]
   `(when (.hasOption ~cmdline ~opt)

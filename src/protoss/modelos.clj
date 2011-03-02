@@ -8,3 +8,7 @@
 (def recibos-aluguel (.getInstanceOf modelos "recibos-aluguel"))
 (def recibos-escritorio (.getInstanceOf modelos "recibos-escritorio"))
 
+(defn procusto [lista]
+  (take 4 (concat lista ["" "" "" ""])))
+
+
