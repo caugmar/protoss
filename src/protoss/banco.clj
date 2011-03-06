@@ -38,3 +38,9 @@
                      [:documento :quantidade :descricao :valor]
                      (vec (concat [(id-atual modelo)] (map lancamento [:quantidade :descricao :valor])))))))
 
+(defn obter-documentos [modelo emissao]
+  (sql-query "select * from documentos_de_cobranca where modelo like ? and data_de_emissao like ?" modelo emissao))
+
+(defn obter-itens [documento]
+  (sql-query "select * from itens_de_cobranca where documento like ?" documento))
+
