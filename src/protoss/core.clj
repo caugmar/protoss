@@ -1,5 +1,6 @@
 (ns protoss.core
   (:import [org.apache.commons.cli Options GnuParser HelpFormatter])
+  (:use protoss.modelos)
   (:gen-class))
 
 (defmacro se-opcao [cmdline opt & body]
@@ -31,7 +32,9 @@
     (doto cmdline
       (se-opcao "c" (println "Carregando..."))
       (se-opcao "g" (println "Gerando..."))
-      (se-opcao-com-arg "e" emissao (println (str "Emitindo " emissao "...")))
+      (se-opcao-com-arg "e" emissao (do
+                                      (println (str "Emitindo " emissao "..."))
+                                      (emitir-documentos emissao)))
       (se-opcao-com-arg "r" emissao (println (str "Gerando relatórios de " emissao "...")))
       (se-opcao-com-arg "p" emissao (println (str "Atualizando planilhas com os dados de " emissao "...")))
       (se-opcao-com-arg "x" emissao (println (str "Excluindo dados de " emissao "...")))
