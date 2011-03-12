@@ -1,16 +1,23 @@
 (ns protoss.modelos
-  (:import [org.antlr.stringtemplate StringTemplateGroup])
-  (:use [protoss planilha banco]))
+  (:import [org.antlr.stringtemplate StringTemplateGroup]
+           [java.text DecimalFormat])
+  (:use [protoss planilha banco extensos]))
 
 (def templates (StringTemplateGroup. "templates" "./templates/"))
 (def recibos-aluguel (.getInstanceOf templates "recibos-aluguel"))
 (def recibos-escritorio (.getInstanceOf templates "recibos-escritorio"))
 
 (defn procusto [lista]
-  (vec (take 4 (concat lista (repeat 4 {:quantidade "" :descricao "" :valor ""})))))
+  (vec (take 4 (concat lista (repeat 4 {:quantidade "" :descricao "" :valor 0})))))
 
 (defn ajustar [texto tamanho]
   (subs (format (str "%-" tamanho "s") texto) 0 tamanho))
+
+(let [formato (DecimalFormat. "###,##0.00")]
+  (defn dinheiro [valor]
+    (if (= valor 0) ""
+      (format "%11s" (try (.format formato valor)
+                       (catch java.lang.IllegalArgumentException e valor))))))
 
 (defn quebrar [texto local]
   (if (>= (inc local) (.length texto))
@@ -42,7 +49,8 @@
               [endereco1 endereco2] (quebrar endereco-aviso 48)
               endereco-notas (str endereco-aviso " - " (:bairro documento) " - " (:cidade documento)
                                   " - " (:estado documento) " - CEP " (:cep documento))
-              [endereco3 endereco4] (quebrar endereco-notas 48)]
+              [endereco3 endereco4] (quebrar endereco-notas 48)
+              total (reduce + (map :valor itens))]
           (preencher template documento
                      ["nome" :nome 52]
                      ["nffs" (format "%06d" (:numero_da_nota documento)) 6]
@@ -59,17 +67,19 @@
                      ["im" :inscricao_municipal 5]
                      ["q1" (:quantidade (itens 0)) 4]
                      ["d1" (:descricao (itens 0)) 36]
-                     ["v1" (:valor (itens 0)) 11]
+                     ["v1" (dinheiro (:valor (itens 0))) 11]
                      ["q2" (:quantidade (itens 1)) 4]
                      ["d2" (:descricao (itens 1)) 36]
-                     ["v2" (:valor (itens 1)) 11]
+                     ["v2" (dinheiro (:valor (itens 1))) 11]
                      ["q3" (:quantidade (itens 2)) 4]
                      ["d3" (:descricao (itens 2)) 36]
-                     ["v3" (:valor (itens 2)) 11]
+                     ["v3" (dinheiro (:valor (itens 2))) 11]
                      ["q4" (:quantidade (itens 3)) 4]
                      ["d4" (:descricao (itens 3)) 36]
-                     ["v4" (:valor (itens 3)) 11]
+                     ["v4" (dinheiro (:valor (itens 3))) 11]
                      ["emissao" :data_de_emissao 10]
-                     ["vcto" :data_de_vencimento 10])
+                     ["vcto" :data_de_vencimento 10]
+                     ["total" (dinheiro total) 11]
+                     ["extenso" (em-reais total) 69])
           (println (.toString template)))))))
 
