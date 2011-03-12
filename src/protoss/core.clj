@@ -32,9 +32,7 @@
     (doto cmdline
       (se-opcao "c" (println "Carregando..."))
       (se-opcao "g" (println "Gerando..."))
-      (se-opcao-com-arg "e" emissao (do
-                                      (println (str "Emitindo " emissao "..."))
-                                      (emitir-documentos emissao)))
+      (se-opcao-com-arg "e" emissao (emitir-documentos emissao))
       (se-opcao-com-arg "r" emissao (println (str "Gerando relatórios de " emissao "...")))
       (se-opcao-com-arg "p" emissao (println (str "Atualizando planilhas com os dados de " emissao "...")))
       (se-opcao-com-arg "x" emissao (println (str "Excluindo dados de " emissao "...")))
@@ -42,9 +40,6 @@
 
 (defn -main [& args]
   (let [opcoes (configurar-opcoes)]
-    (try
-      (dispatcher args opcoes)
-      (println "Feito.")
-      (catch Exception e
-        (mostrar-ajuda opcoes)))))
+    (try (dispatcher args opcoes)
+      (catch Exception e (mostrar-ajuda opcoes)))))
 

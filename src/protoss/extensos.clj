@@ -1,5 +1,5 @@
 (ns protoss.extensos
-  (:use [clojure.string :only [split replace]]))
+  (:use [clojure.string :only [split replace] :rename {replace string-replace}]))
 
 (def digitos {0 "zero" 1 "um" 2 "dois" 3 "três" 4 "quatro" 5 "cinco" 6 "seis" 7 "sete" 8 "oito" 9 "nove"})
 (def excessoes {10 "dez" 11 "onze" 12 "doze" 13 "treze" 14 "quatorze" 15 "quinze" 
@@ -30,11 +30,12 @@
 
 (defn separar [numero] 
   (let [[inteiros decimais] (split (str numero) #"\.")
-        decimal-preenchido (replace (format "%-2s" decimais) " " "0")]
+        decimal-preenchido (string-replace (format "%-2s" decimais) " " "0")]
     (map #(Integer. %) [inteiros decimal-preenchido])))
 
 (defn em-reais [numero]
-  (let [[inteiros centavos] (separar numero)]
+  (let [numero-real (+ numero 0.0)
+        [inteiros centavos] (separar numero-real)]
     (cond
       (and (= inteiros 0) (= centavos 0)) ""
       (and (= inteiros 0) (= centavos 1)) "um centavo"

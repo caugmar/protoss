@@ -81,5 +81,5 @@
                      ["vcto" :data_de_vencimento 10]
                      ["total" (dinheiro total) 11]
                      ["extenso" (em-reais total) 69])
-          (println (.toString template)))))))
+          (println (str (.toString template) "\n\n")))))))
 
