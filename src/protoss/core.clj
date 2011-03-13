@@ -36,7 +36,8 @@
       (se-opcao-com-arg "r" emissao (println (str "Gerando relatórios de " emissao "...")))
       (se-opcao-com-arg "p" emissao (println (str "Atualizando planilhas com os dados de " emissao "...")))
       (se-opcao-com-arg "x" emissao (println (str "Excluindo dados de " emissao "...")))
-      (se-opcao "h" (mostrar-ajuda opcoes)))))
+      (se-opcao "h" (mostrar-ajuda opcoes))))
+  nil)
 
 (defn -main [& args]
   (let [opcoes (configurar-opcoes)]
