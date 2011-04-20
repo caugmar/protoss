@@ -1,13 +1,17 @@
 # protoss
 
-FIXME: write description
+Protoss é uma reescrita do sistema de emissão de cobrança do escritório Minister.
+Inicialmente escrito em Python, eu o refiz em Clojure por uma série de motivos:
+maior estabilidade, possibilidade de usar bibliotecas Java... e por diversão :)
 
 ## Usage
 
-FIXME: write
+Protoss é um programa de linha de comando. Eventualmente pretendo escrever
+uma interface gráfica pra esse cara. Mas não tão já.
 
 ## License
 
-Copyright (C) 2010 FIXME
+Copyright (C) 2011 Guto Marcicano
 
-Distributed under the Eclipse Public License, the same as Clojure.
+Todos os direitos reservados.
+
